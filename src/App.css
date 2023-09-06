@@ -28,6 +28,14 @@ p {
   margin-top: 0.4em;
 }
 
+.project-item h4 a {
+  color: white;
+}
+
+.project-item h4 a:hover {
+  color: lightblue;
+}
+
 .project-item p {
   font-size: 0.9em;
 }
