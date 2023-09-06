@@ -48,16 +48,19 @@ p {
 #about-me-img {
   width: 15em;
   object-fit: contain;
-  margin: 1.5em;
-  margin-bottom: 2.5em;
+  margin-left: 0;
 }
 
 #about-me-text {
   margin-right: 1em;
 }
 
+.about-me-content {
+  background-color: #292929;
+}
+
 .tech-chip {
-  background-color: #444444;
+  background-color: #4e4e4e;
   border-radius: 0.5em;
   margin: 0.2em;
   font-size: 0.9em;

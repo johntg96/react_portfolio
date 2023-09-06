@@ -11,7 +11,7 @@ export default function About() {
   return (
     <>
       <h3 className='mt-5 mb-4 d-flex justify-content-center align-items-center' id='about-me-title'>About Me</h3>
-      <MDBContainer className='d-flex flex-wrap justify-content-center'>
+      <MDBContainer fluid className='d-flex flex-wrap justify-content-center about-me-content'>
         <MDBRow>
           <MDBCol className='mt-4 d-flex justify-content-center'>
             <img id='about-me-img' src='images/me.jpg'></img>
@@ -24,44 +24,46 @@ export default function About() {
             </MDBContainer>
           </MDBCol>
         </MDBRow>
-        <MDBRow>
-        <MDBCol>
-            <p className='mt-5'>My skill set includes these development technologies:</p>
-            <div className='mt-4 tech-chip-container d-flex flex-wrap justify-content-evenly'>
-              <div className='tech-chip'>
-                <p>HTML</p>
+        </MDBContainer>
+        <MDBContainer>
+          <MDBRow>
+            <MDBCol>
+              <p className='mt-5'>My skill set includes these development technologies:</p>
+              <div className='mt-4 tech-chip-container d-flex flex-wrap justify-content-evenly'>
+                <div className='tech-chip'>
+                  <p>HTML</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>CSS</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>JavaScript</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>Node.JS</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>Express.JS</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>MongoDB</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>Mongoose</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>Sequelize</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>Bootstrap 5</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>Tailwind</p>
+                </div>
+                <div className='tech-chip'>
+                  <p>JQuery</p>
+                </div>
               </div>
-              <div className='tech-chip'>
-                <p>CSS</p>
-              </div>
-              <div className='tech-chip'>
-                <p>JavaScript</p>
-              </div>
-              <div className='tech-chip'>
-                <p>Node.JS</p>
-              </div>
-              <div className='tech-chip'>
-                <p>Express.JS</p>
-              </div>
-              <div className='tech-chip'>
-                <p>MongoDB</p>
-              </div>
-              <div className='tech-chip'>
-                <p>Mongoose</p>
-              </div>
-              <div className='tech-chip'>
-                <p>Sequelize</p>
-              </div>
-              <div className='tech-chip'>
-                <p>Bootstrap 5</p>
-              </div>
-              <div className='tech-chip'>
-                <p>Tailwind</p>
-              </div>
-              <div className='tech-chip'>
-                <p>JQuery</p>
-              </div>
-            </div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
