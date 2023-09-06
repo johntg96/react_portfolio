@@ -46,13 +46,14 @@ p {
 }
 
 #about-me-img {
-  border-radius: 50%;
-  width: 18%;
-  height: 100%;
+  width: 15em;
+  object-fit: contain;
+  margin: 1.5em;
+  margin-bottom: 2.5em;
 }
 
 #about-me-text {
-  margin-left: 2em;
+  margin-right: 1em;
 }
 
 .tech-chip {
