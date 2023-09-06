@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import FourZeroFour from './pages/404'
 import Contact from './pages/Contact'
+import About from './components/About'
 import './App.css'
 
 function App() {
