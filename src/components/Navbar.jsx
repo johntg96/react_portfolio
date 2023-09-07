@@ -20,7 +20,7 @@ export default function App() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' dark style={{ backgroundColor: '#145369' }}>
+    <MDBNavbar id='navbar' expand='lg' dark>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>Portfolio | John Garrison</MDBNavbarBrand>
 

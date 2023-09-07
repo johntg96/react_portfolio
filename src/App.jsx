@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import FourZeroFour from './pages/404'
 import Contact from './pages/Contact'
-import About from './components/About'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
           </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   )
 }

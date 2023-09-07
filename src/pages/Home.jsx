@@ -6,10 +6,11 @@ export default function Home() {
 
   return (
     <>
-      <Project />
-      <hr className='mt-4 hr hr-blurry'/>
+      
       <About />
-      <hr className='mt-4 hr hr-blurry'/>
+      <div id='image-banner-reversed'></div>
+      <Project />
+      <div id='image-banner'></div>
     </>
   )
 }
