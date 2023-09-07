@@ -63,6 +63,9 @@ export default function About() {
                 <div className='tech-chip'>
                   <p>JQuery</p>
                 </div>
+                <div className='tech-chip'>
+                  <p>React</p>
+                </div>
               </div>
           </MDBCol>
         </MDBRow>
