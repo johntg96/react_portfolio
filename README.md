@@ -7,4 +7,4 @@ On it you will find summaries of my work and more information about me as a deve
 
 View the live site [here](https://gleaming-pithivier-ad1912.netlify.app/).
 
-![website screenshot](./assets/images/screenshot_react_portfolio.png)
+![website screenshot](./public/images/screenshot_react_portfolio.png)
