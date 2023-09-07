@@ -11,6 +11,10 @@ p {
   color: #AAAAAA;
 }
 
+label {
+  color: white;
+}
+
 #navbar {
   position: sticky;
   top: 0;
@@ -84,4 +88,8 @@ p {
   width: 100%;
   height: 6em;
   background-image: linear-gradient(to bottom, #051937, #044268, #007199, #00a3c6, #0ed8eb);
+}
+
+.input-box {
+  margin-top: 1.5em;
 }

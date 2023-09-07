@@ -22,7 +22,7 @@ export default function App() {
   return (
     <MDBNavbar id='navbar' expand='lg' dark>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Portfolio | John Garrison</MDBNavbarBrand>
+        <MDBNavbarBrand href='/'>Portfolio | John Garrison</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'

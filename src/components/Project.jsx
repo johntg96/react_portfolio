@@ -4,10 +4,10 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 export default function Project() {
 
   return (
-    <MDBContainer>
+    <MDBContainer className='mb-5'>
 
       <h2 id='project-title' className='d-flex justify-content-center'>Latest Projects</h2>
-      
+
       <MDBRow>
 
         <MDBCol id='project-1' className='project-item'>
