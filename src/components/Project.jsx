@@ -42,7 +42,7 @@ export default function Project() {
 
         <MDBCol id='project-5' className='project-item'>
           <h4><a href='https://github.com/johntg96/h0ldb1nz'>h0ldb1nz</a></h4>
-          <p>I developed a specialized work tool that optimizes the logging of computer hardware and service repair order ticket status (SRO) through a graphical user interface. This tool significantly enhanced my efficiency in performing specific work tasks. It possesses the capability to generate tabular data in both JSON and CSV formats. It's important to note that this is a front-end application exclusively.</p>
+          <p>I developed a specialized work tool that optimizes the logging of computer hardware and service repair order ticket status (SRO) through a graphical user interface. This tool significantly enhanced my efficiency in performing specific work tasks. Written in vanilla HTML, CSS, and JavaScript then wrapped as a desktop application via Electron. Data is read and saved using local JSON files.</p>
           <img src='images/screenshot_h0ldb1nz.png' className='project-screenshot'></img>
         </MDBCol>
 
