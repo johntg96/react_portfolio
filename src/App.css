@@ -22,6 +22,14 @@ label {
   z-index: 100;
 }
 
+.nav-project-link a {
+  color: lightblue;
+}
+
+.nav-project-link a:hover {
+  color: purple;
+}
+
 #project-title {
   margin-top: 2.5em;
   margin-bottom: 1em;
