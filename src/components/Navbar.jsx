@@ -35,13 +35,19 @@ export default function App() {
 
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
-            <MDBNavbarItem>
+
+            {/* <MDBNavbarItem>
               <MDBNavbarLink active aria-current='page' href='/contact'>
                 Contact
               </MDBNavbarLink>
-            </MDBNavbarItem>
+            </MDBNavbarItem> */}
+
             <MDBNavbarItem>
               <MDBNavbarLink href='https://github.com/johntg96'>Github</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBNavbarLink href='https://www.linkedin.com/in/johntg96/'>LinkedIn</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
