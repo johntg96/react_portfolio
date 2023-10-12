@@ -66,6 +66,10 @@ export default function App() {
                   </MDBDropdownItem>
 
                   <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                    <a href='https://github.com/johntg96/super_space_chicken'>Super Space Chicken</a> 
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
                     <a href='https://github.com/johntg96/tech_blog'>tech_blog</a> 
                   </MDBDropdownItem>
 
