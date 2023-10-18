@@ -74,6 +74,14 @@ label {
   margin-right: 3em;
 }
 
+#u-of-m-link {
+  color: white;
+}
+
+#u-of-m-link:hover {
+  color: lightblue;
+}
+
 .about-me-content {
   background-color: #292929;
 }
