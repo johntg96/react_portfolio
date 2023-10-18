@@ -82,6 +82,12 @@ label {
   color: #7a0019;
 }
 
+#cert-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-me-content {
   background-color: #292929;
 }
