@@ -19,7 +19,7 @@ export default function About() {
           <MDBCol>
             <MDBContainer id='about-me-text' className='mt-4 mb-2 flex-wrap'>
               <p>I've been coding as a hobby for several years seeking opportunities to write code to provide solutions for problems I've encountered in my day-to-day life. I enjoy the essence of logical-creativity and find a lot of that within the processes of web development.</p>
-              <p>I recently graduated from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'><em>University of Minnesota Full-Stack Flex Coding Bootcamp</em></a>.</p>
+              <p>I recently graduated from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'><em>University of Minnesota Full-Stack Web Development Coding Bootcamp</em></a>.</p>
               <div id='cert-badge'>
                 <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'><img src='/images/full-stack-web-development-certificate-coding-boot-camp.png' alt='certificate badge'/></a>
               </div>
