@@ -22,7 +22,7 @@ export default function App() {
   return (
     <MDBNavbar id='navbar' expand='lg' dark>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'>Portfolio | John Garrison</MDBNavbarBrand>
+        <MDBNavbarBrand href='/'>Portfolio | John Garrison |&nbsp;&nbsp;<span style={{fontSize:'0.7em', color:'lightgray'}}>johntg96</span></MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -43,65 +43,65 @@ export default function App() {
             </MDBNavbarItem> */}
 
             <MDBNavbarItem>
-              <MDBNavbarLink href='https://github.com/johntg96'>Github</MDBNavbarLink>
+              <MDBNavbarLink href='https://github.com/johntg96' className='navbar-link'>Github</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href='https://www.linkedin.com/in/johntg96/'>LinkedIn</MDBNavbarLink>
+              <MDBNavbarLink href='https://www.linkedin.com/in/johntg96/' className='navbar-link'>LinkedIn</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBDropdown>
-                <MDBDropdownToggle tag='a' className='nav-link' role='button'>
+              <MDBDropdown >
+                <MDBDropdownToggle tag='a' className='nav-link navbar-link' role='button'>
                   Projects
                 </MDBDropdownToggle>
-                <MDBDropdownMenu dark>
+                <MDBDropdownMenu dark style={{margin: '0', padding: '0'}}>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem  className='nav-project-link'>
                     <a href='https://github.com/johntg96/ThinkSync'>ThinkSync</a>
                   </MDBDropdownItem>
                   
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link  nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/konsoom'>konsoom</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/super_space_chicken'>Super Space Chicken</a> 
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link  nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/tech_blog'>tech_blog</a> 
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/module6_weather_dashboard'>Weather Dashboard</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/module4_code_quiz'>code_quiz</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/h0ldb1nz'>h0ldb1nz</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/watercalc'>waterCalc</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/readme_generator'>README Generator</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/module5_work_day_scheduler'>Work Day Scheduler</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/svg_logo_maker'>SVG Logo Maker</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem link toggle={false} className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/employee_tracker'>Employee Tracker</a>
                   </MDBDropdownItem>
 
