@@ -6,7 +6,7 @@ export default function Project() {
   return (
     <MDBContainer className='mb-5'>
 
-      <h2 id='project-title' className='d-flex justify-content-center'>Latest Projects</h2>
+      <h2 id='project-title' className='d-flex justify-content-center'>Featured Projects</h2>
 
       <MDBRow>
 
