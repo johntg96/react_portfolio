@@ -81,11 +81,34 @@ label {
 #u-of-m-link:hover {
   color: #7a0019;
 }
+/* CSS Animation for Badge based on time */
+.wobble-animation {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transition: transform 0.3s;
+  animation: wobble 4s infinite;
+}
+
+.bounce-animation:nth-child(even) {
+  animation-delay: 6s;
+}
+
+@keyframes wobble {
+  0%, 100% {
+    transform: rotate(-5deg); /* Slightly turn to the left */
+  }
+  50% {
+    transform: rotate(5deg); /* Slightly turn to the right */
+  }
+}
 
 #cert-badge {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -1em;
+  margin-bottom: 3em;
 }
 
 .about-me-content {

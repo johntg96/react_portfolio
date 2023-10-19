@@ -12,7 +12,7 @@ export default function Project() {
 
         <MDBCol id='project-1' className='project-item'>
           <h4><a href='https://thinksync-1e5fbc55e5f7.herokuapp.com/'>ThinkSync</a></h4>
-          <p>ThinkSync is a web application for coming to a decision between multiple ideas. It is created with React.js, MongoDB, Express, and Material Design for Bootstrap CSS framework. This is my final group project for University of Minnesota Full-Stack Flex Coding Bootcamp.</p>
+          <p>ThinkSync is a web application for coming to a decision between multiple ideas. It is created with React.js, MongoDB, Express, and Material Design for Bootstrap CSS framework. This is my final group project for University of Minnesota Full-Stack Web Development Coding Bootcamp.</p>
           <img src='images/screenshot_thinksync.png' className='project-screenshot'></img>
         </MDBCol>
 
@@ -33,7 +33,7 @@ export default function Project() {
 
         <MDBCol id='project-4' className='project-item'>
           <h4><a href='https://github.com/johntg96/waterCalc'>waterCalc</a></h4>
-          <p>I designed a website to calculate Sodium Bicarbonate and Calcium Chloride weights for achieving optimal hot tub and pool water balance. Initially created for personal use during my role as a maintenance associate at the YMCA.</p>
+          <p>I developed a website to calculate Sodium Bicarbonate and Calcium Chloride weights for achieving optimal hot tub and pool water balance. Initially created for personal use during my role as a maintenance associate at the YMCA.</p>
           <img src='images/screenshot_waterCalc.png' className='project-screenshot'></img>
         </MDBCol>
 
