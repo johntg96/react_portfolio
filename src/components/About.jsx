@@ -39,7 +39,7 @@ export default function About() {
         <MDBContainer className='mb-4'>
           <MDBRow>
             <MDBCol>
-              <p className='mt-4'>My skill set includes these development technologies:</p>
+              <p className='mt-4'><em>My skill set includes these development technologies:</em></p>
               <div className='mt-4 tech-chip-container d-flex flex-wrap justify-content-evenly'>
                 <div className='tech-chip'>
                   <p>HTML</p>
