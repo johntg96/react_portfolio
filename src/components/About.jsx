@@ -31,7 +31,7 @@ export default function About() {
               
 
               <p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'lightblue' }}>ThinkSync</a>)</em>.</p>
-              <p>My resume is available <a href='https://docs.google.com/document/d/1sd07dV3R7xevumimU5AJD6_v1yE2rwYursuW1r_Ypqg/edit?usp=sharing'>here</a>.</p>
+              <p>My resume is available &#x2192; <a href='https://docs.google.com/document/d/1sd07dV3R7xevumimU5AJD6_v1yE2rwYursuW1r_Ypqg/edit?usp=sharing' id='resume-link'>here</a></p>
             </MDBContainer>
           </MDBCol>
         </MDBRow>

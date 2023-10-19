@@ -97,6 +97,17 @@ label {
   margin-right: 3em;
 }
 
+#resume-link {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: white
+}
+
+#resume-link:hover {
+  color: lightblue;
+}
+
 #u-of-m-link {
   color: #faf0d3;
 }
