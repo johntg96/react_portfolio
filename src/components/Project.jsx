@@ -12,7 +12,7 @@ export default function Project() {
 
         <MDBCol id='project-1' className='project-item'>
           <h4><a href='https://thinksync-1e5fbc55e5f7.herokuapp.com/'>ThinkSync</a></h4>
-          <p>ThinkSync is a web application for coming to a decision between multiple ideas. It is created with React.js, MongoDB, Express, and Material Design for Bootstrap CSS framework. This is my final group project for University of Minnesota Full-Stack Web Development Coding Bootcamp.</p>
+          <p>ThinkSync is a web application for coming to a decision between multiple ideas. It is created with MongoDB, Express.js, React.js, Node.js (MERN stack) and Material Design for Bootstrap CSS framework. This is my final group project for University of Minnesota Full-Stack Web Development Coding Bootcamp.</p>
           <img src='images/screenshot_thinksync.png' className='project-screenshot'></img>
         </MDBCol>
 
