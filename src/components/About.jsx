@@ -60,7 +60,7 @@ export default function About() {
                   <img src='/images/tech-chip-icons/react.png'/>
                 </div>
                 <div className='tech-chip'>
-                  <p>Node.JS</p>
+                  <p>Node</p>
                   <img src='/images/tech-chip-icons/node.png'/>
                 </div>
                 <div className='tech-chip'>
@@ -72,7 +72,7 @@ export default function About() {
                   <img src='/images/tech-chip-icons/mysql.png'/>
                 </div>
                 <div className='tech-chip'>
-                  <p>Express.JS</p>
+                  <p>Express</p>
                   <img src='/images/tech-chip-icons/express.png'/>
                 </div>
                 <div className='tech-chip'>
