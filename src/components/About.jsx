@@ -68,6 +68,10 @@ export default function About() {
                   <img src='/images/tech-chip-icons/mongodb.png'/>
                 </div>
                 <div className='tech-chip'>
+                  <p>MySQL</p>
+                  <img src='/images/tech-chip-icons/mysql.png'/>
+                </div>
+                <div className='tech-chip'>
                   <p>Express.JS</p>
                   <img src='/images/tech-chip-icons/express.png'/>
                 </div>

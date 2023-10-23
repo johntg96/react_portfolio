@@ -151,13 +151,15 @@ label {
 .tech-chip {
   background-color: #4e4e4e;
   border-radius: 0.5em;
+  border: 2px solid #073d5c;
   margin: 0.2em;
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: center;
   padding: 0.5em;
   margin: 0.3em;
   width: 6em;
-  height: 7em;
+  height: 8em;
+  transition: width 0.3s, height 0.3s;
 }
 
 .tech-chip img {
