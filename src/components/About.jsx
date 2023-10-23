@@ -42,7 +42,7 @@ export default function About() {
           <MDBRow>
             <MDBCol>
               <p className='mt-4'><em>My skill set includes these development technologies (and always learning):</em></p>
-              <div className='mt-4 tech-chip-container d-flex flex-wrap justify-content-evenly'>
+              <div className='mt-4 tech-chip-container d-flex flex-wrap justify-content-center'>
                 <div className='tech-chip'>
                   <p>HTML</p>
                   <img src='/images/tech-chip-icons/html.png'/>
@@ -56,16 +56,20 @@ export default function About() {
                   <img src='/images/tech-chip-icons/javascript.png'/>
                 </div>
                 <div className='tech-chip'>
+                  <p>React</p>
+                  <img src='/images/tech-chip-icons/react.png'/>
+                </div>
+                <div className='tech-chip'>
                   <p>Node.JS</p>
                   <img src='/images/tech-chip-icons/node.png'/>
                 </div>
                 <div className='tech-chip'>
-                  <p>Express.JS</p>
-                  <img src='/images/tech-chip-icons/express.png'/>
-                </div>
-                <div className='tech-chip'>
                   <p>MongoDB</p>
                   <img src='/images/tech-chip-icons/mongodb.png'/>
+                </div>
+                <div className='tech-chip'>
+                  <p>Express.JS</p>
+                  <img src='/images/tech-chip-icons/express.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Mongoose</p>
@@ -76,7 +80,7 @@ export default function About() {
                   <img src='/images/tech-chip-icons/sequelize.png'/>
                 </div>
                 <div className='tech-chip'>
-                  <p>Bootstrap 5</p>
+                  <p>Bootstrap</p>
                   <img src='/images/tech-chip-icons/bootstrap.png'/>
                 </div>
                 <div className='tech-chip'>
@@ -88,8 +92,8 @@ export default function About() {
                   <img src='/images/tech-chip-icons/jquery.png'/>
                 </div>
                 <div className='tech-chip'>
-                  <p>React</p>
-                  <img src='/images/tech-chip-icons/react.png'/>
+                  <p>Python</p>
+                  <img src='/images/tech-chip-icons/python.png'/>
                 </div>
               </div>
           </MDBCol>

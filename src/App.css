@@ -54,7 +54,7 @@ label {
 }
 
 #project-title {
-  margin-top: 2.5em;
+  margin-top: 2em;
   margin-bottom: 1em;
 }
 
@@ -152,8 +152,12 @@ label {
   background-color: #4e4e4e;
   border-radius: 0.5em;
   margin: 0.2em;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  text-align: center;
   padding: 0.5em;
+  margin: 0.3em;
+  width: 6em;
+  height: 7em;
 }
 
 .tech-chip img {
