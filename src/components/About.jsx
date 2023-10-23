@@ -45,39 +45,51 @@ export default function About() {
               <div className='mt-4 tech-chip-container d-flex flex-wrap justify-content-evenly'>
                 <div className='tech-chip'>
                   <p>HTML</p>
+                  <img src='/images/tech-chip-icons/html.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>CSS</p>
+                  <img src='/images/tech-chip-icons/css.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>JavaScript</p>
+                  <img src='/images/tech-chip-icons/javascript.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Node.JS</p>
+                  <img src='/images/tech-chip-icons/node.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Express.JS</p>
+                  <img src='/images/tech-chip-icons/express.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>MongoDB</p>
+                  <img src='/images/tech-chip-icons/mongodb.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Mongoose</p>
+                  <img src='/images/tech-chip-icons/mongoose.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Sequelize</p>
+                  <img src='/images/tech-chip-icons/sequelize.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Bootstrap 5</p>
+                  <img src='/images/tech-chip-icons/bootstrap.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Tailwind</p>
+                  <img src='/images/tech-chip-icons/tailwind.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>JQuery</p>
+                  <img src='/images/tech-chip-icons/jquery.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>React</p>
+                  <img src='/images/tech-chip-icons/react.png'/>
                 </div>
               </div>
           </MDBCol>
