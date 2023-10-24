@@ -87,10 +87,10 @@ export default function About() {
                   <p>Bootstrap</p>
                   <img src='/images/tech-chip-icons/bootstrap.png'/>
                 </div>
-                <div className='tech-chip'>
+                {/* <div className='tech-chip'>
                   <p>Tailwind</p>
                   <img src='/images/tech-chip-icons/tailwind.png'/>
-                </div>
+                </div> */}
                 <div className='tech-chip'>
                   <p>JQuery</p>
                   <img src='/images/tech-chip-icons/jquery.png'/>
