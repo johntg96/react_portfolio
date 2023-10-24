@@ -3,7 +3,7 @@
 ## Description
 
 This is my web development portfolio website that was written in React.
-On it you will find summaries of my work and more information about me as a developer, including my current skillset, resume, links including link to University of Minnesota Coding Bootcamp Web Dev Certification.
+On it you will find summaries of my work and more information about me as a developer, including my current skillset, links to resume and University of Minnesota Coding Bootcamp Web Dev Certification.
 
 View the live site [here](https://johntg96.netlify.app/).
 
