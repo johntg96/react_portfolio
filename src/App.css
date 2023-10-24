@@ -1,3 +1,9 @@
+:root {
+  --blue: #145369;
+  --light-blue: #97caf5;
+  --dark-blue: #073d5c;
+}
+
 body {
   background-color: #1E1E1E;
 }
@@ -15,15 +21,29 @@ label {
   color: white;
 }
 
+::-webkit-scrollbar {
+  height: 0.6em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-blue);
+  border-radius: 6px;
+  border: 1px solid var(--blue)
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-blue);
+}
+
 #navbar {
   position: sticky;
   top: 0;
-  background-color: #145369;
+  background-color: var(--blue);
   z-index: 100;
 }
 
 .navbar-link {
-  color: #97caf5;
+  color: var(--light-blue);
   margin: 0;
   padding: 0;
   border-radius: 0.3em;
@@ -88,7 +108,7 @@ label {
 }
 
 #about-me-img {
-  width: 15em;
+  width: 16em;
   object-fit: contain;
   margin-left: 0;
 }
@@ -148,17 +168,24 @@ label {
   background-color: #292929;
 }
 
+.tech-chip-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  justify-content: space-evenly;
+}
+
 .tech-chip {
   background-color: #4e4e4e;
   border-radius: 0.5em;
-  border: 2px solid #073d5c;
+  border: 2px solid var(--dark-blue);
   margin: 0.2em;
   font-size: 0.7em;
   text-align: center;
   padding: 0.5em;
   margin: 0.3em;
   width: 6em;
-  height: 8em;
+  height: 7em;
   transition: width 0.3s, height 0.3s;
 }
 

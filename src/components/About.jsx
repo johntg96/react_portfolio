@@ -42,7 +42,7 @@ export default function About() {
           <MDBRow>
             <MDBCol>
               <p className='mt-4'><em>My skill set includes these development technologies (and always learning):</em></p>
-              <div className='mt-4 tech-chip-container d-flex flex-wrap justify-content-center'>
+              <div className='mt-4 tech-chip-container'>
                 <div className='tech-chip'>
                   <p>HTML</p>
                   <img src='/images/tech-chip-icons/html.png'/>
