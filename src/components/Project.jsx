@@ -11,7 +11,7 @@ export default function Project() {
       <MDBRow>
 
         <MDBCol id='project-1' className='project-item'>
-          <h4><a href='https://thinksync-1e5fbc55e5f7.herokuapp.com/'>ThinkSync</a></h4>
+          <h4><a href='https://thinksync-1e5fbc55e5f7.herokuapp.com/'>ThinkSync <img src='/images/project-icons/thinksync.ico' style={{width: '1.5em'}}/></a></h4>
           <p>ThinkSync is a web application for coming to a decision between multiple ideas. It is created with MongoDB, Express.js, React.js, Node.js (MERN stack) and Material Design for Bootstrap CSS framework. This is my final group project for University of Minnesota Full-Stack Web Development Coding Bootcamp.</p>
           <img src='images/screenshot_thinksync.png' className='project-screenshot'></img>
         </MDBCol>
@@ -20,7 +20,7 @@ export default function Project() {
       <MDBRow>
 
       <MDBCol id='project-2' className='project-item'>
-          <h4><a href='https://github.com/johntg96/konsoom'>konsoom</a></h4>
+          <h4><a href='https://github.com/johntg96/konsoom'>konsoom <img src='images/project-icons/konsoom.ico' style={{width: '1.5em'}}/></a></h4>
           <p>A collaborative project curating a movie and TV series list for future viewing, with cover art, dark mode, and persistent data storage using browser local storage. Data fetched through the OMDB API for comprehensive results.</p>
           <img src='images/screenshot_konsoom.png' className='project-screenshot'></img>
         </MDBCol>
