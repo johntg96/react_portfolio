@@ -14,7 +14,7 @@ export default function About() {
       <MDBContainer fluid className='d-flex flex-wrap justify-content-center about-me-content'>
         <MDBRow>
           <MDBCol className='mt-4 mb-2 d-flex justify-content-center'>
-            <img id='about-me-img' src='images/me.jpg'></img>
+            <img id='about-me-img' src='images/me_animated.gif'></img>
           </MDBCol>
           <MDBCol>
             <MDBContainer id='about-me-text' className='mt-4 mb-2 flex-wrap'>
@@ -64,20 +64,20 @@ export default function About() {
                   <img src='/images/tech-chip-icons/node.png'/>
                 </div>
                 <div className='tech-chip'>
-                  <p>MongoDB</p>
-                  <img src='/images/tech-chip-icons/mongodb.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>MySQL</p>
-                  <img src='/images/tech-chip-icons/mysql.png'/>
-                </div>
-                <div className='tech-chip'>
                   <p>Express</p>
                   <img src='/images/tech-chip-icons/express.png'/>
                 </div>
                 <div className='tech-chip'>
+                  <p>MongoDB</p>
+                  <img src='/images/tech-chip-icons/mongodb.png'/>
+                </div>
+                <div className='tech-chip'>
                   <p>Mongoose</p>
                   <img src='/images/tech-chip-icons/mongoose.png'/>
+                </div>
+                <div className='tech-chip'>
+                  <p>MySQL</p>
+                  <img src='/images/tech-chip-icons/mysql.png'/>
                 </div>
                 <div className='tech-chip'>
                   <p>Sequelize</p>
