@@ -2,6 +2,7 @@
   --blue: #145369;
   --light-blue: #97caf5;
   --dark-blue: #073d5c;
+  --light-gray: #292929;
 }
 
 body {
@@ -109,8 +110,10 @@ label {
 
 #about-me-img {
   width: 18em;
-  object-fit: contain;
+  height: 18em;
+  border-radius: 50%;
   margin-left: 0;
+  box-shadow: 0px 0px 20px 25px rgba(253,82,127,0.1);
 }
 
 #about-me-text {
@@ -165,7 +168,7 @@ label {
 }
 
 .about-me-content {
-  background-color: #292929;
+  background-color: var(--light-gray);
 }
 
 .tech-chip-container {

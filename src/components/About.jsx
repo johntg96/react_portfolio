@@ -13,7 +13,7 @@ export default function About() {
       <h3 className='mt-5 mb-4 d-flex justify-content-center align-items-center' id='about-me-title'>About Me</h3>
       <MDBContainer fluid className='d-flex flex-wrap justify-content-center about-me-content'>
         <MDBRow>
-          <MDBCol className='mt-4 mb-2 d-flex justify-content-center'>
+          <MDBCol className='mt-4 mb-2 d-flex justify-content-center align-items-center'>
             <img id='about-me-img' src='images/me_animated.gif'></img>
           </MDBCol>
           <MDBCol>
