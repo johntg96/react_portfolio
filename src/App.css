@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+ul, li {
+  color: #AAAAAA;
+}
+
 p {
   color: #AAAAAA;
 }
@@ -101,6 +105,10 @@ label {
 
 .project-item p {
   font-size: 0.9em;
+}
+
+.project-item ul li {
+  font-size: 0.8em;
 }
 
 .project-screenshot {

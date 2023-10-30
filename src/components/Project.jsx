@@ -37,7 +37,11 @@ export default function Project() {
 
         <MDBCol id='project-4' className='project-item'>
           <h4><a href='https://github.com/johntg96/waterCalc' title='go to GitHub Repository'>waterCalc</a></h4>
-          <p>I developed a website to calculate Sodium Bicarbonate and Calcium Chloride weights for achieving optimal hot tub and pool water balance. Initially created for personal use during my role as a maintenance associate at the YMCA.</p>
+          <p>I developed a website to calculate Sodium Bicarbonate and Calcium Chloride weights for achieving optimal hot tub and pool water balance.</p>
+          <ul>
+            <li>Created as a hobby project for learning purposes</li>
+            <li>I used this tool during my role as a maintenance associate at the YMCA.</li>
+          </ul>
           <img src='images/screenshot_waterCalc.png' className='project-screenshot'></img>
         </MDBCol>
 
@@ -47,6 +51,15 @@ export default function Project() {
         <MDBCol id='project-5' className='project-item'>
           <h4><a href='https://github.com/johntg96/h0ldb1nz' title="go to GitHub repository">h0ldb1nz</a></h4>
           <p>I developed a specialized work tool that optimizes the logging of computer hardware and service repair order ticket status (SRO) through a graphical user interface. This tool significantly enhanced my efficiency in performing specific work tasks. Written in vanilla HTML, CSS, and JavaScript then wrapped as a desktop application via Electron. Data is read and saved using local JSON files.</p>
+          <ul>
+            <li>I wanted to mimic most of the simple, basic functionality of common spreadsheet software.</li>
+            <ul>
+              <li>e.g. color coding based on value, color coding based on time, autofill based on previous selection criteria, and basic import/export of that data.</li>
+              <li>I wanted to target very specific input selection criteria for only this task to highlight parts pairing issues based on timeframe.</li>
+              <li>I wanted a persitent clutter-free interface.</li>
+            </ul>
+            <li>After I achieved my primary goals, I utilized the application at work weekly for a period of 6 months, using it to get the data to later make email reports.</li>
+          </ul>
           <img src='images/screenshot_h0ldb1nz.png' className='project-screenshot'></img>
         </MDBCol>
 
