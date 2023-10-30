@@ -56,7 +56,7 @@ export default function Project() {
             <ul>
               <li>e.g. color coding based on value, color coding based on time, autofill based on previous selection criteria, and basic import/export of that data.</li>
               <li>I wanted to target very specific input selection criteria for only this task to highlight parts pairing issues based on timeframe.</li>
-              <li>I wanted a persitent clutter-free interface.</li>
+              <li>I wanted a simple clutter-free user interface that could be used on a small display and/or weak hardware (e.g. old chromebook running linux).</li>
             </ul>
             <li>After I achieved my primary goals, I utilized the application at work weekly for a period of 6 months, using it to get the data to later make email reports.</li>
           </ul>
