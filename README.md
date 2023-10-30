@@ -1,10 +1,15 @@
-# React.js Portfolio
-
-## Description
-
-This is my web development portfolio website that was written in React.
-On it you will find summaries of my work and more information about me as a developer, including my current skillset, and links to resume and University of Minnesota Coding Bootcamp Web Dev Certification.
-
-View the live site [here](https://johntg96.netlify.app/).
-
-![website screenshot](./public/images/screenshot_react_portfolio.png)
+# React.js Portfolio  
+  
+## Description  
+  
+This is my web development portfolio website (developed with React.js library).
+On it you will find summaries of my web development projects and more information about me as a developer.  
+  
+## Links  
+  
+* View the live site [here](https://johntg96.netlify.app/).  
+  
+* Find me on [LinkedIn](https://www.linkedin.com/in/johntg96/).  
+  
+  
+![website screenshot](./public/images/screenshot_react_portfolio.png)  
