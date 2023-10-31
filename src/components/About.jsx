@@ -40,7 +40,7 @@ export default function About() {
                       </a>
                   </div>
                 </div>
-                Before venturing into professional web development, I self-taught web basics. I used this knowledge to create web applications that improved my work. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve my work's quality.
+                Before venturing into professional web development, I self-taught web basics. I used this knowledge to create web applications that improved my work. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
                 </p>
                 <br/>
                 <img src='images/me_cats_art.png' className='me-cats-art'/>
