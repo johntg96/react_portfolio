@@ -19,10 +19,10 @@ export default function About() {
               </div>
           </MDBCol>
           <MDBCol className='mt-5 about-me-bullet-list'>
-            <ul style={{minWidth: '15em', maxWidth: '30em'}}>
+            <ul style={{minWidth: '15em', maxWidth: '30em', }}>
               <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'white' }}>ThinkSync</a>)</em>.</p></li>
               <li><p>My resume is available &#x2192; <a href='https://docs.google.com/document/d/1sd07dV3R7xevumimU5AJD6_v1yE2rwYursuW1r_Ypqg/edit?usp=sharing' id='resume-link' style={{textDecoration:'underline'}}>here</a><span style={{fontSize: '0.7em', marginLeft:'1em'}}><br/>(Google Docs)</span></p></li>
-              <li><p>I am currently open for work and seeking a position as a full-time web developer.</p></li>
+              <li><p>I am currently seeking a position as a full-time web developer.</p></li>
             </ul>
           </MDBCol>
         </MDBRow>
@@ -39,11 +39,13 @@ export default function About() {
                       </a>
                   </div>
                 </div>
-                  For the previous several years I've applied what I've taught myself to solve problems and find creative solutions.
+                  In the several years prior to studying web development professionally, I self-taught myself web dev basics.
+                  <br/>
+                  Applying what I learned to build web applications to help me do my job better.
                   <br/>
                   I have a background in computer hardware repair, followed by a stronger interest in software.
                   <br/>
-                  I am highly interested in developing my skills to develop continually improving applications.
+                  I am highly interested in developing my skills to continually improve the quality of my work.
                 </p>
                 <br/>
                 <img src='images/me_cats_art.png' className='me-cats-art'/>
