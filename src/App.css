@@ -78,6 +78,12 @@ label {
   color: #8ad7f3;
 }
 
+.me-cats-art {
+  width: 18em;
+  float: none;
+  margin: 0.5em 1em 0.5em 1em;
+}
+
 #project-title {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -168,11 +174,10 @@ label {
 }
 
 #cert-badge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1em;
-  margin-bottom: 3em;
+  position: fixed;
+  top: 0.5em;
+  right: 6em;
+  z-index: 10;
 }
 
 .about-me-content {
@@ -223,8 +228,32 @@ label {
 }
 
 /* CSS Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .about-me-content {
     padding: 1em 1em 1em 1em;
+  }
+
+  .me-cats-art {
+    width: 40%;
+    height: 40%;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+  .me-cats-art {
+    width: 35%;
+    height: 35%;
+  }
+
+  #cert-badge {
+    right: 4em;
+  }
+}
+
+@media (max-width: 525px) {
+  #cert-badge {
+    display: none;
   }
 }

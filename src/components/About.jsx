@@ -16,11 +16,12 @@ export default function About() {
           <MDBCol>
               <div className='mt-4 mb-2 d-flex justify-content-center align-items-center' >
                 <img id='about-me-img' src='images/me_animated.gif'></img>
+                
               </div>
           </MDBCol>
           <MDBCol className='mt-5'>
             <ul>
-              <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'lightblue' }}>ThinkSync</a>)</em>.</p></li>
+              <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'white' }}>ThinkSync</a>)</em>.</p></li>
               <li><p>My resume is available &#x2192; <a href='https://docs.google.com/document/d/1sd07dV3R7xevumimU5AJD6_v1yE2rwYursuW1r_Ypqg/edit?usp=sharing' id='resume-link' style={{textDecoration:'underline'}}>here</a><span style={{fontSize: '0.7em', marginLeft:'1em'}}><br/>(Google Docs)</span></p></li>
               <li><p>I am currently open for work and seeking a position as a full-time web developer.</p></li>
             </ul>
@@ -28,24 +29,27 @@ export default function About() {
         </MDBRow>
           <MDBRow>
             <MDBCol className='mt-4'>
-              <img src='images/me_cats_art.png' style={{width: '35%', float: 'right', margin: '0.5em 1em 0.5em 1em'}}/>
-
-              <p className='mt-5'>I've been coding as a hobby for several years seeking opportunities to write code to provide solutions for problems I've encountered in my day-to-day life.
-              <br/>
-              <br/>
-              I enjoy the combination of creativity with flow control and that's been the primary driving force for my ambitions towards computer programming, specifically web development.</p>
               
-              <p>I recently graduated from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'><em>University of Minnesota Full Stack Web Development Coding Bootcamp</em></a>.</p>
-
-              <div id='cert-badge'>
-                <div className='wobble-animation'>
-                  <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
-                      <img src='/images/full-stack-web-development-certificate-coding-boot-camp.png' alt='certificate badge'/>
-                    </a>
-                </div>
+              <div className='d-flex justify-content-center'>
+                
+                <p className='mt-5'>My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
+                <br/>
+                <br/>
+                  For the previous several years I've applied what I've taught myself to solve problems and find creative solutions.<br/>
+                  I have a background in computer hardware repair, followed by a stronger interest in software.<br/>
+                  I am highly interested in developing my skills to develop continually improving applications.
+                </p>
+                <br/>
+                <img src='images/me_cats_art.png' className='me-cats-art'/>
               </div>
+              
+              
+              
+
+              
             </MDBCol>
           </MDBRow>
+          
         </MDBContainer>
         <MDBContainer className='mb-4'>
           <MDBRow>
