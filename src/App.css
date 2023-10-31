@@ -160,9 +160,6 @@ label {
 }
 /* CSS Animation for Badge based on time */
 .wobble-animation {
-  width: 100px;
-  height: 100px;
-  position: relative;
   transition: transform 0.3s;
   animation: wobble 4s infinite;
 }
@@ -189,7 +186,6 @@ label {
 
 #cert-badge-mobile {
   display: none;
-  justify-content: center;
 }
 
 .about-me-content {
@@ -271,6 +267,8 @@ label {
 
   #cert-badge-mobile {
     display: flex;
+    justify-content: center;
+    padding-right: 0.5em;
   }
 
   .me-cats-art {
