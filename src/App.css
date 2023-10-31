@@ -143,6 +143,11 @@ label {
   box-shadow: -15px 5px 25px 0px rgba(253,82,127,0.3),-44px -51px 33px -55px rgba(254, 228, 26,0.3),4px 0px 25px 10px rgba(73, 225, 210,0.3);
 }
 
+.about-me-bullet-list {
+  width: 20em;
+  justify-content: flex-start;
+}
+
 #about-me-text {
   margin-right: 3em;
 }
@@ -275,6 +280,13 @@ label {
 
   .me-cats-art-mobile {
     display: block;
+  }
+}
+
+@media (max-width: 665px) {
+  .about-me-bullet-list {
+    justify-content: center;
+    align-items: center;
   }
 }
 
