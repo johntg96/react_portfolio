@@ -30,7 +30,7 @@ export default function About() {
             <MDBCol className='mt-4'>
               <img src='images/me_cats_art.png' style={{width: '35%', float: 'right', margin: '0.5em 1em 0.5em 1em'}}/>
 
-              <p className='mt-4'>I've been coding as a hobby for several years seeking opportunities to write code to provide solutions for problems I've encountered in my day-to-day life. I enjoy the essence of logical-creativity and find a lot of that within the processes of web development.</p>
+              <p className='mt-5'>I've been coding as a hobby for several years seeking opportunities to write code to provide solutions for problems I've encountered in my day-to-day life. I enjoy the essence of logical-creativity and find a lot of that within the processes of web development.</p>
               
               <p>I recently graduated from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'><em>University of Minnesota Full Stack Web Development Coding Bootcamp</em></a>.</p>
 
