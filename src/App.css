@@ -129,6 +129,12 @@ label {
   height: auto;
 }
 
+#about-me-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #about-me-img {
   width: 18em;
   height: 18em;
@@ -240,6 +246,10 @@ label {
   .about-me-content {
     padding: 1em 1em 1em 1em;
   }
+  
+  #about-me-img {
+    justify-content: flex-end;
+  }
 
   .me-cats-art {
     width: 40%;
@@ -258,6 +268,14 @@ label {
   #cert-badge {
     right: 4em;
   }
+
+  .me-cats-art {
+    display: none;
+  }
+
+  .me-cats-art-mobile {
+    display: block;
+  }
 }
 
 @media (max-width: 525px) {
@@ -270,12 +288,12 @@ label {
     justify-content: center;
     padding-right: 0.5em;
   }
+}
 
-  .me-cats-art {
-    display: none;
-  }
-
-  .me-cats-art-mobile {
-    display: block;
+@media (min-width: 1300px) {
+  #about-me-img-container {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 4.5em;
   }
 }

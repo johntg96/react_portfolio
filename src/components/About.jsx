@@ -14,12 +14,12 @@ export default function About() {
       <MDBContainer fluid className='about-me-content'>
         <MDBRow>
           <MDBCol>
-              <div className='mt-4 mb-2 d-flex justify-content-center align-items-center' >
+              <div id='about-me-img-container' className='mt-4 mb-2' >
                 <img id='about-me-img' src='images/me_animated.gif'></img>
               </div>
           </MDBCol>
           <MDBCol className='mt-5'>
-            <ul>
+            <ul style={{minWidth: '25em'}}>
               <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'white' }}>ThinkSync</a>)</em>.</p></li>
               <li><p>My resume is available &#x2192; <a href='https://docs.google.com/document/d/1sd07dV3R7xevumimU5AJD6_v1yE2rwYursuW1r_Ypqg/edit?usp=sharing' id='resume-link' style={{textDecoration:'underline'}}>here</a><span style={{fontSize: '0.7em', marginLeft:'1em'}}><br/>(Google Docs)</span></p></li>
               <li><p>I am currently open for work and seeking a position as a full-time web developer.</p></li>
