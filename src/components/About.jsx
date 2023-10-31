@@ -32,20 +32,15 @@ export default function About() {
                 <img src='images/me_cats_art.png' className='me-cats-art-mobile'/>
                 <p className='mt-5'>My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
                 <br/>
-                <div id='cert-badge-mobile' className='mt-3 mb-3'>
+                <br/>
+                <div id='cert-badge-mobile' className='mt-2 mb-3'>
                   <div className='wobble-animation'>
                     <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
                         <img src='/images/full-stack-web-development-certificate-coding-boot-camp_mobile.png' alt='certificate badge' style={{width: '7.5em'}}/>
                       </a>
                   </div>
                 </div>
-                  In the several years prior to studying web development professionally, I self-taught myself web dev basics.
-                  <br/>
-                  Applying what I learned to build web applications to help me do my job better.
-                  <br/>
-                  I have a background in computer hardware repair, followed by a stronger interest in software.
-                  <br/>
-                  I am highly interested in developing my skills to continually improve the quality of my work.
+                Before venturing into professional web development, I self-taught web basics. I used this knowledge to create web applications that improved my work. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve my work's quality.
                 </p>
                 <br/>
                 <img src='images/me_cats_art.png' className='me-cats-art'/>
