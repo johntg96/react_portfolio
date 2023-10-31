@@ -121,7 +121,7 @@ label {
   height: 18em;
   border-radius: 50%;
   margin-left: 0;
-  box-shadow: -20px 0px 25px -3px rgba(253,82,127,0.1),-60px -65px 25px -76px rgba(254, 228, 26,0.1),4px 0px 25px 12px rgba(73, 225, 210,0.1);
+  box-shadow: -18px 5px 25px 0px rgba(253,82,127,0.5),-69px -67px 33px -76px rgba(254, 228, 26,0.5),4px 4px 25px 10px rgba(73, 225, 210,0.5);
 }
 
 #about-me-text {
