@@ -39,8 +39,10 @@ export default function About() {
                       </a>
                   </div>
                 </div>
-                  For the previous several years I've applied what I've taught myself to solve problems and find creative solutions.<br/>
+                  For the previous several years I've applied what I've taught myself to solve problems and find creative solutions.
+                  <br/>
                   I have a background in computer hardware repair, followed by a stronger interest in software.
+                  <br/>
                   I am highly interested in developing my skills to develop continually improving applications.
                 </p>
                 <br/>
