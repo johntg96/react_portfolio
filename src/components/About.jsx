@@ -14,7 +14,7 @@ export default function About() {
       <MDBContainer fluid className='about-me-content'>
         <MDBRow>
           <MDBCol>
-              <div className='mt-2 mb-5 d-flex justify-content-center align-items-center'>
+              <div className='mt-4 mb-2 d-flex justify-content-center align-items-center'>
                 <img id='about-me-img' src='images/me_animated.gif'></img>
               </div>
           </MDBCol>
