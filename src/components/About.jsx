@@ -16,7 +16,6 @@ export default function About() {
           <MDBCol>
               <div className='mt-4 mb-2 d-flex justify-content-center align-items-center' >
                 <img id='about-me-img' src='images/me_animated.gif'></img>
-                
               </div>
           </MDBCol>
           <MDBCol className='mt-5'>
@@ -29,9 +28,8 @@ export default function About() {
         </MDBRow>
           <MDBRow>
             <MDBCol className='mt-4'>
-              
-              <div className='d-flex justify-content-center'>
-                
+              <div className='d-flex flex-wrap justify-content-center'>
+                <img src='images/me_cats_art.png' className='me-cats-art-mobile'/>
                 <p className='mt-5'>My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
                 <br/>
                 <br/>
@@ -42,14 +40,8 @@ export default function About() {
                 <br/>
                 <img src='images/me_cats_art.png' className='me-cats-art'/>
               </div>
-              
-              
-              
-
-              
             </MDBCol>
           </MDBRow>
-          
         </MDBContainer>
         <MDBContainer className='mb-4'>
           <MDBRow>

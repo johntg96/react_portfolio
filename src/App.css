@@ -79,6 +79,13 @@ label {
 }
 
 .me-cats-art {
+  float: right;
+  width: 18em;
+  margin: 0.5em 1em 0.5em 1em;
+}
+
+.me-cats-art-mobile {
+  display: none;
   width: 18em;
   float: none;
   margin: 0.5em 1em 0.5em 1em;
@@ -255,5 +262,13 @@ label {
 @media (max-width: 525px) {
   #cert-badge {
     display: none;
+  }
+
+  .me-cats-art {
+    display: none;
+  }
+
+  .me-cats-art-mobile {
+    display: block;
   }
 }
