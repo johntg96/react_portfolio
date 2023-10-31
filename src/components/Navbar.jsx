@@ -115,13 +115,13 @@ export default function App() {
           </MDBNavbarNav>
             
         </MDBCollapse>
-        <div id='cert-badge'>
-              <div className='wobble-animation'>
-                <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
-                    <img src='/images/full-stack-web-development-certificate-coding-boot-camp.png' alt='certificate badge' style={{width: '6em'}}/>
-                  </a>
-              </div>
+          <div id='cert-badge'>
+            <div className='wobble-animation'>
+              <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
+                  <img src='/images/full-stack-web-development-certificate-coding-boot-camp.png' alt='certificate badge' style={{width: '6em'}}/>
+                </a>
             </div>
+          </div>
       </MDBContainer>
     </MDBNavbar>
   );

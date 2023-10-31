@@ -32,6 +32,13 @@ export default function About() {
                 <img src='images/me_cats_art.png' className='me-cats-art-mobile'/>
                 <p className='mt-5'>My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
                 <br/>
+                <div id='cert-badge-mobile' className='mt-4'>
+                  <div className='wobble-animation'>
+                    <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
+                        <img src='/images/full-stack-web-development-certificate-coding-boot-camp_mobile.png' alt='certificate badge' style={{width: '6em'}}/>
+                      </a>
+                  </div>
+                </div>
                 <br/>
                   For the previous several years I've applied what I've taught myself to solve problems and find creative solutions.<br/>
                   I have a background in computer hardware repair, followed by a stronger interest in software.<br/>
