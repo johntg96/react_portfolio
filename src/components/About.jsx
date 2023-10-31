@@ -11,14 +11,27 @@ export default function About() {
   return (
     <>
       <h3 className='mt-5 mb-4 d-flex justify-content-center align-items-center' id='about-me-title'>About Me</h3>
-      <MDBContainer fluid className='d-flex flex-wrap justify-content-center about-me-content'>
+      <MDBContainer fluid className='about-me-content'>
         <MDBRow>
-          <MDBCol className='mt-4 mb-2 d-flex justify-content-center align-items-center'>
-            <img id='about-me-img' src='images/me_animated.gif'></img>
-          </MDBCol>
           <MDBCol>
-            <MDBContainer id='about-me-text' className='mt-4 mb-2 flex-wrap'>
-              <p>I've been coding as a hobby for several years seeking opportunities to write code to provide solutions for problems I've encountered in my day-to-day life. I enjoy the essence of logical-creativity and find a lot of that within the processes of web development.</p>
+              <div className='mt-2 mb-5 d-flex justify-content-center align-items-center'>
+                <img id='about-me-img' src='images/me_animated.gif'></img>
+              </div>
+          </MDBCol>
+          <MDBCol className='d-flex flex-wrap justify-content-start align-items-center'>
+            <ul>
+              <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'lightblue' }}>ThinkSync</a>)</em>.</p></li>
+              <li><p>My resume is available &#x2192; <a href='https://docs.google.com/document/d/1sd07dV3R7xevumimU5AJD6_v1yE2rwYursuW1r_Ypqg/edit?usp=sharing' id='resume-link' style={{textDecoration:'underline'}}>here</a><span style={{fontSize: '0.7em', marginLeft:'1em'}}><br/>(Google Docs)</span></p></li>
+              <li><p>I am currently open for work and seeking a position as a full-time web developer.</p></li>
+            </ul>
+          </MDBCol>
+        </MDBRow>
+          <MDBRow>
+            <MDBCol className='mt-4'>
+              <img src='images/me_cats_art.png' style={{width: '35%', float: 'right', margin: '0.5em 1em 0.5em 1em'}}/>
+
+              <p className='mt-4'>I've been coding as a hobby for several years seeking opportunities to write code to provide solutions for problems I've encountered in my day-to-day life. I enjoy the essence of logical-creativity and find a lot of that within the processes of web development.</p>
+              
               <p>I recently graduated from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'><em>University of Minnesota Full Stack Web Development Coding Bootcamp</em></a>.</p>
 
               <div id='cert-badge'>
@@ -28,15 +41,8 @@ export default function About() {
                     </a>
                 </div>
               </div>
-              
-
-              <p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'lightblue' }}>ThinkSync</a>)</em>.</p>
-              <p>My resume is available &#x2192; <a href='https://docs.google.com/document/d/1sd07dV3R7xevumimU5AJD6_v1yE2rwYursuW1r_Ypqg/edit?usp=sharing' id='resume-link' style={{textDecoration:'underline'}}>here</a><span style={{fontSize: '0.7em', marginLeft:'1em'}}>(Google Docs)</span></p>
-
-              <p>I am currently open for work and seeking a position as a full-time web developer.</p>
-            </MDBContainer>
-          </MDBCol>
-        </MDBRow>
+            </MDBCol>
+          </MDBRow>
         </MDBContainer>
         <MDBContainer className='mb-4'>
           <MDBRow>

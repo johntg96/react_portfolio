@@ -177,6 +177,7 @@ label {
 
 .about-me-content {
   background-color: var(--light-gray);
+  padding: 1em 2em 1em 2em;
 }
 
 .tech-chip-container {
