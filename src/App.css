@@ -177,7 +177,7 @@ label {
 
 .about-me-content {
   background-color: var(--light-gray);
-  padding: 1em 2em 1em 2em;
+  padding: 1em 4em 1em 4em;
 }
 
 .tech-chip-container {
@@ -220,4 +220,11 @@ label {
 
 .input-box {
   margin-top: 1.5em;
+}
+
+/* CSS Media Queries */
+@media (max-width: 768px) {
+  .about-me-content {
+    padding: 1em 1em 1em 1em;
+  }
 }
