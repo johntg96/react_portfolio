@@ -30,7 +30,9 @@ export default function About() {
             <MDBCol className='mt-4'>
               <div className='d-flex flex-wrap justify-content-center'>
                 <img src='images/me_cats_art.png' className='me-cats-art-mobile'/>
-                <p className='mt-5'>My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
+                <p className='mt-5'>
+                  My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
+                </p>
                 <br/>
                 <br/>
                 <div id='cert-badge-mobile' className='mt-2 mb-3'>
@@ -40,7 +42,8 @@ export default function About() {
                       </a>
                   </div>
                 </div>
-                Before venturing into professional web development, I self-taught web basics. I used this knowledge to create web applications that improved my work. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
+                <p>
+                  Before venturing into professional web development, I self-taught web basics. I used this knowledge to create web applications that improved my work. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
                 </p>
                 <br/>
                 <img src='images/me_cats_art.png' className='me-cats-art'/>
