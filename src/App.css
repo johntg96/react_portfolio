@@ -147,6 +147,10 @@ label {
   justify-content: flex-start;
 }
 
+.personal-description {
+  width: 50%;
+}
+
 #about-me-text {
   margin-right: 3em;
 }
@@ -280,6 +284,10 @@ label {
   .me-cats-art-mobile {
     display: block;
   }
+
+  .personal-description {
+    width: 100%;
+  }
 }
 
 @media (max-width: 665px) {
@@ -310,5 +318,9 @@ label {
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 4.5em;
+  }
+
+  .personal-description {
+    width: 35%;
   }
 }
