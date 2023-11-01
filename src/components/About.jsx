@@ -50,7 +50,7 @@ export default function About() {
         <MDBContainer className='mb-4'>
           <MDBRow>
             <MDBCol>
-              <p className='mt-4'><em>My skill set includes these development technologies (and always learning):</em></p>
+              <p className='mt-4'><em>I am familiar to proficient in these languages, libraries, and frameworks (and always learning):</em></p>
               <div className='mt-4 tech-chip-container'>
                 <div className='tech-chip'>
                   <p>HTML</p>
