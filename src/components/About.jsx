@@ -39,7 +39,7 @@ export default function About() {
                 </div>
                 <p className='mt-3 personal-description'>
                   My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.<br/><br/>
-                  Before venturing into professional web development, I self-taught web basics. I used this knowledge to create web applications that improved my work. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
+                  Before diving into web development, I taught myself web development basics. I used this knowledge to create web applications that improved my work, like making a tool to peform hottub and pool calculations for me when I worked at the YMCA. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
                 </p>
                 <br/>
                 <img src='images/me_cats_art.png' className='me-cats-art'/>
