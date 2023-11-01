@@ -15,7 +15,7 @@ export default function About() {
         <MDBRow>
           <MDBCol>
               <div id='about-me-img-container' className='mt-4 mb-2' >
-                <img id='about-me-img' src='images/me_animated.gif'></img>
+                <img id='about-me-img' src='images/me_animated.webp'></img>
               </div>
           </MDBCol>
           <MDBCol className='mt-5 about-me-bullet-list'>
