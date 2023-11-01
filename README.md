@@ -1,4 +1,6 @@
 # React.js Portfolio  
+
+![coding artwork](./public/images/me_coding_art.jpeg)  
   
 ## Description  
   
@@ -10,6 +12,5 @@ On it you will find summaries of my web development projects and more informatio
 * View the live site [here](https://johntg96.netlify.app/).  
   
 * Find me on [LinkedIn](https://www.linkedin.com/in/johntg96/).  
-  
   
 ![website screenshot](./public/images/screenshot_react_portfolio.png)  
