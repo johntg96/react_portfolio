@@ -30,11 +30,6 @@ export default function About() {
             <MDBCol className='mt-4'>
               <div className='d-flex flex-wrap justify-content-center'>
                 <img src='images/me_cats_art.png' className='me-cats-art-mobile'/>
-                <p className='mt-5'>
-                  My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
-                </p>
-                <br/>
-                <br/>
                 <div id='cert-badge-mobile' className='mt-2 mb-3'>
                   <div className='wobble-animation'>
                     <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
@@ -43,6 +38,7 @@ export default function About() {
                   </div>
                 </div>
                 <p>
+                  My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.<br/><br/>
                   Before venturing into professional web development, I self-taught web basics. I used this knowledge to create web applications that improved my work. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
                 </p>
                 <br/>
