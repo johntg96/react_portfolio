@@ -22,6 +22,10 @@ p {
   color: #AAAAAA;
 }
 
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
+  cursor: default;
+}
+
 label {
   color: white;
 }
