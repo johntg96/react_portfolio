@@ -9,7 +9,7 @@ On it you will find summaries of my web development projects and more informatio
   
 ## Links  
   
-* View the live site [here](https://johntg96.netlify.app/).  
+* View the live site [here](https://johntg96.com/).  
   
 * Find me on [LinkedIn](https://www.linkedin.com/in/johntg96/).  
   
