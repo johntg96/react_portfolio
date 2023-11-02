@@ -84,13 +84,6 @@ label {
   margin: 0.5em 1em 0.5em 1em;
 }
 
-.me-cats-art-mobile {
-  display: none;
-  width: 18em;
-  float: none;
-  margin: 0.5em 1em 0.5em 1em;
-}
-
 #project-title {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -149,7 +142,7 @@ label {
 }
 
 .personal-description {
-  width: 50%;
+  width: 80%;
 }
 
 #about-me-text {
@@ -270,20 +263,12 @@ label {
 
 @media (max-width: 768px) {
   .me-cats-art {
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
   }
 
   #cert-badge {
     right: 4em;
-  }
-
-  .me-cats-art {
-    display: none;
-  }
-
-  .me-cats-art-mobile {
-    display: block;
   }
 
   .personal-description {
@@ -322,6 +307,7 @@ label {
   }
 
   .personal-description {
-    width: 35%;
+    width: 50%;
+    max-width: 70em;
   }
 }

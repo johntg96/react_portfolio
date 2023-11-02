@@ -28,26 +28,23 @@ export default function About() {
         </MDBRow>
           <MDBRow>
             <MDBCol className='mt-4'>
-              <div className='d-flex flex-wrap justify-content-center'>
-                <img src='images/me_cats_art.png' className='me-cats-art-mobile'/>
-                <div>
-                  <p className='mt-3 personal-description'>
-                    My name is John and I am a graduate from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
-                  </p>
+            <div className='d-flex flex-column align-items-center'>
+              <p className='mt-3 personal-description'>
+                My name is John and I am a certified full-stack web developer from the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>.
+              </p>
+              <div id='cert-badge-mobile' className='mt-2 mb-3'>
+                <div className='wobble-animation'>
+                  <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
+                    <img src='/images/full-stack-web-development-certificate-coding-boot-camp_mobile.png' alt='certificate badge' style={{width: '7.5em'}}/>
+                  </a>
                 </div>
-                <div id='cert-badge-mobile' className='mt-2 mb-3'>
-                  <div className='wobble-animation'>
-                    <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
-                        <img src='/images/full-stack-web-development-certificate-coding-boot-camp_mobile.png' alt='certificate badge' style={{width: '7.5em'}}/>
-                      </a>
-                  </div>
-                </div>
-                <p>
-                  Before diving into web development, I taught myself web development basics. I used this knowledge to create web applications that improved my work, like making a tool to peform hottub and pool calculations for me when I worked at the YMCA. My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
-                </p>
-                <br/>
-                <img src='images/me_cats_art.png' className='me-cats-art'/>
               </div>
+              <p className='personal-description'>
+                Before diving into web development, I taught myself web development basics. I used this knowledge to create web applications that improved my work, like making a tool to perform hot tub and pool calculations for me when I worked at the YMCA. 
+                <img src='images/me_cats_art.png' className='me-cats-art'/>
+                My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
+              </p>
+            </div>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
