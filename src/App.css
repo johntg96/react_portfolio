@@ -81,7 +81,7 @@ label {
 .me-cats-art {
   float: right;
   width: 18em;
-  margin: 0.5em 1em -3em 1em;
+  margin: 0.5em 1em 0.5em 1em;
 }
 
 #project-title {
@@ -301,6 +301,12 @@ label {
   .me-cats-art {
     width: 55%;
     height: 55%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .me-cats-art {
+    margin-bottom: -3em;
   }
 }
 
