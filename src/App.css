@@ -22,10 +22,6 @@ p {
   color: #AAAAAA;
 }
 
-h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
-  cursor: default;
-}
-
 label {
   color: white;
 }
@@ -138,6 +134,7 @@ label {
   margin-left: 0;
   margin-right: 0.5em;
   box-shadow: -15px 5px 25px 0px rgba(253,82,127,0.3),-44px -51px 33px -55px rgba(254, 228, 26,0.3),4px 0px 25px 10px rgba(73, 225, 210,0.3);
+  cursor: url('/images/ssc_cursor.webp'), auto;
 }
 
 .about-me-bullet-list {
