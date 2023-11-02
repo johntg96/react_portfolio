@@ -36,7 +36,7 @@ export default function Project() {
         </MDBCol>
 
         <MDBCol id='project-4' className='project-item'>
-          <h4><a href='https://github.com/johntg96/waterCalc' title='go to GitHub Repository'>waterCalc</a></h4>
+          <h4><a href='https://johntg96.github.io/waterCalc/' title='visit deployed application'>waterCalc</a>&nbsp;&nbsp;<a href='https://github.com/johntg96/waterCalc' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
           <p>I developed a website to calculate Sodium Bicarbonate and Calcium Chloride weights for achieving optimal hot tub and pool water balance.</p>
           <ul>
             <li>Created as a hobby project for learning purposes</li>
@@ -49,7 +49,7 @@ export default function Project() {
       <MDBRow>
 
         <MDBCol id='project-5' className='project-item'>
-          <h4><a href='https://github.com/johntg96/h0ldb1nz' title="go to GitHub repository">h0ldb1nz</a></h4>
+          <h4><a href='https://johntg96.github.io/h0ldb1nz/' title='visit deployed application'>h0ldb1nz</a>&nbsp;&nbsp;<a href='https://github.com/johntg96/h0ldb1nz' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
           <p>I developed a specialized work tool that optimizes the logging of computer hardware and service repair order ticket status (SRO) through a graphical user interface. This tool significantly enhanced my efficiency in performing specific work tasks. Written in vanilla HTML, CSS, and JavaScript then wrapped as a desktop application via Electron. Data is read and saved using local JSON files.</p>
           <ul>
             <li>I wanted to mimic most of the simple, basic functionality of common spreadsheet software.</li>
