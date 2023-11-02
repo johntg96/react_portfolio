@@ -41,7 +41,7 @@ export default function About() {
               </div>
               <p className='personal-description'>
                 Before diving into web development, I taught myself web development basics. I used this knowledge to create web applications that improved my work, like making a tool to perform hot tub and pool calculations for me when I worked at the YMCA.&nbsp;
-                <img src='images/me_cats_art.png' className='me-cats-art'/>
+                <img src='images/me_cats_plant_art.png' className='me-cats-art'/>
                 My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
               </p>
             </div>
