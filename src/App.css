@@ -297,6 +297,11 @@ label {
     justify-content: center;
     padding-right: 0.5em;
   }
+
+  .me-cats-art {
+    width: 55%;
+    height: 55%;
+  }
 }
 
 @media (min-width: 1300px) {
