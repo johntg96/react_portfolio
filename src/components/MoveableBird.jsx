@@ -1,3 +1,28 @@
+{/* 
+  MoveableBird is a small super space chicken that the user can drag around if using a touchscreen capable device. 
+    
+    Component integration steps:
+
+      - Provide this component to another components render function with 2 props:
+        - isDragging -> A stateful boolean value
+        - onMoveableBirdData -> function to update bird position (x and y coordinates)
+
+      - Create stateful variable to hold isDragging boolean value.
+      - Create stateful variable to hold position x and y coordinates.
+      - Create function to update stateful variables.
+
+      Example:
+      --------------------------------------------------------------------------------
+        const [isMoving, setIsMoving] = useState(false);
+        const [position, setPosition] = useState({ x: 0, y: 0 });
+
+        const handleMoveableBirdData = (moving, newPosition) => {
+          setIsMoving(moving);
+          setPosition(newPosition);
+        };
+      --------------------------------------------------------------------------------
+*/}
+
 import React, { useState, useRef, useEffect } from 'react';
 
 function MoveableBird(props) {
@@ -42,6 +67,7 @@ function MoveableBird(props) {
 
   const handleTouchEnd = () => {
     onMoveableBirdData(false, position);
+    console.log(position);
   };
 
   return (

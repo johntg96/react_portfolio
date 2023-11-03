@@ -8,11 +8,11 @@ import MoveableBird from './MoveableBird';
 
 export default function Project() {
 
-  const [isDragging, setIsMoving] = useState(false);
+  const [isMoving, setIsMoving] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
-  const handleMoveableBirdData = (dragging, newPosition) => {
-    setIsMoving(dragging);
+  const handleMoveableBirdData = (moving, newPosition) => {
+    setIsMoving(moving);
     setPosition(newPosition);
   };
 
@@ -71,15 +71,8 @@ export default function Project() {
           </ul>
           <img src='images/screenshot_h0ldb1nz.png' className='project-screenshot'></img>
         </MDBCol>
-
-        {/* <MDBCol id='project-6' className='project-item'>
-          <h4><a href='https://github.com/johntg96/code_quiz'>code_quiz</a></h4>
-          <p>A simple timed and graded quiz written using javascript.</p>
-        </MDBCol> */}
-
       </MDBRow>
-      {/* MoveableBird is a small super space chicken that the user can drag around if using a touchscreen capable device */}
-      <MoveableBird isDragging={isDragging} onMoveableBirdData={handleMoveableBirdData} />
+      <MoveableBird isDragging={isMoving} onMoveableBirdData={handleMoveableBirdData} />
     </MDBContainer>
   )
 }
