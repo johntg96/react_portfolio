@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-function DraggableBird(props) {
+function MoveableBird(props) {
   const { isDragging, onDraggableBirdData } = props;
   const [initialPosition, setInitialPosition] = useState({ x: 0, y: 0 });
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -72,4 +72,4 @@ function DraggableBird(props) {
   );
 }
 
-export default DraggableBird;
+export default MoveableBird;

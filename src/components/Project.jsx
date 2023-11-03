@@ -4,7 +4,7 @@ import {  MDBContainer,
           MDBCol,
           MDBIcon
 } from 'mdb-react-ui-kit';
-import DraggableBird from './DraggableBird';
+import MoveableBird from './MoveableBird';
 
 export default function Project() {
 
@@ -78,8 +78,8 @@ export default function Project() {
         </MDBCol> */}
 
       </MDBRow>
-      {/* DraggableBird is a small super space chicken that the user can drag around if using a touchscreen capable device */}
-      <DraggableBird isDragging={isDragging} onDraggableBirdData={handleDraggableBirdData} />
+      {/* MoveableBird is a small super space chicken that the user can drag around if using a touchscreen capable device */}
+      <MoveableBird isDragging={isDragging} onDraggableBirdData={handleDraggableBirdData} />
     </MDBContainer>
   )
 }
