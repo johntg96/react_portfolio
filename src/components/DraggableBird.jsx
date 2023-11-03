@@ -64,7 +64,7 @@ function DraggableBird(props) {
         }}
       >
         <img
-          src="/images/ssc_cursor.webp"
+          src="/images/ssc_animated.webp"
           alt="Draggable Bird"
         />
       </div>
