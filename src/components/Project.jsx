@@ -11,8 +11,8 @@ export default function Project() {
   const [isDragging, setIsMoving] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
-  const handleMoveableBirdData = (moving, newPosition) => {
-    setIsMoving(moving);
+  const handleMoveableBirdData = (dragging, newPosition) => {
+    setIsMoving(dragging);
     setPosition(newPosition);
   };
 
