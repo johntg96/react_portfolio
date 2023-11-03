@@ -5,19 +5,8 @@ import { MDBContainer,
         MDBListGroup,
         MDBListGroupItem,
       } from 'mdb-react-ui-kit';
-import DraggableBird from './DraggableBird';
-
 
 export default function About() {
-
-  const [isDragging, setIsDragging] = useState(false);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-
-  const handleDraggableBirdData = (dragging, newPosition) => {
-    setIsDragging(dragging);
-    setPosition(newPosition);
-  };
-
   return (
     <>
       <h3 className='mt-5 mb-4 d-flex justify-content-center align-items-center' id='about-me-title'>About Me</h3>
@@ -25,8 +14,6 @@ export default function About() {
         <MDBRow>
           <MDBCol>
             <div id='about-me-img-container' className='mt-4 mb-2' >
-              {/* DraggableBird is a small super space chicken that the user can drag around if using a touchscreen capable device */}
-              <DraggableBird isDragging={isDragging} onDraggableBirdData={handleDraggableBirdData} />
               <img id='about-me-img' src='images/me_animated.webp'></img>
             </div>
             

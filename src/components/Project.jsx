@@ -1,11 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {  MDBContainer, 
           MDBRow,
           MDBCol,
           MDBIcon
 } from 'mdb-react-ui-kit';
+import DraggableBird from './DraggableBird';
 
 export default function Project() {
+
+  const [isDragging, setIsDragging] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+
+  const handleDraggableBirdData = (dragging, newPosition) => {
+    setIsDragging(dragging);
+    setPosition(newPosition);
+  };
 
   return (
     <MDBContainer className='mb-5'>
@@ -69,6 +78,8 @@ export default function Project() {
         </MDBCol> */}
 
       </MDBRow>
+      {/* DraggableBird is a small super space chicken that the user can drag around if using a touchscreen capable device */}
+      <DraggableBird isDragging={isDragging} onDraggableBirdData={handleDraggableBirdData} />
     </MDBContainer>
   )
 }
