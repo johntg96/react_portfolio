@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 function MoveableBird(props) {
-  const { isDragging, onDraggableBirdData } = props;
+  const { isMoving, onMoveableBirdData } = props;
   const [initialPosition, setInitialPosition] = useState({ x: 0, y: 0 });
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
@@ -18,30 +18,30 @@ function MoveableBird(props) {
   const handleTouchStart = (e) => {
     if ('ontouchstart' in window) {
       e.stopPropagation();
-      console.log("Touch Event");
+      console.log("Touch event");
       const touch = e.touches[0];
       setInitialPosition({
         x: touch.clientX - position.x,
         y: touch.clientY - position.y,
       });
-      onDraggableBirdData(true, { x: touch.clientX - position.x, y: touch.clientY - position.y });
+      onMoveableBirdData(true, { x: touch.clientX - position.x, y: touch.clientY - position.y });
     }
   };
 
   const handleTouchMove = (e) => {
-    if (isDragging) {
+    if (isMoving) {
       e.stopPropagation();
-      console.log("Drag Event");
+      console.log("Touch drag event");
       const touch = e.touches[0];
       const newX = touch.clientX - initialPosition.x;
       const newY = touch.clientY - initialPosition.y;
       setPosition({ x: newX, y: newY }); // Update the position state
-      onDraggableBirdData(true, { x: touch.clientX - position.x, y: touch.clientY - position.y });
+      onMoveableBirdData(true, { x: touch.clientX - position.x, y: touch.clientY - position.y });
     }
   };
 
   const handleTouchEnd = () => {
-    onDraggableBirdData(false, position);
+    onMoveableBirdData(false, position);
   };
 
   return (
@@ -50,13 +50,13 @@ function MoveableBird(props) {
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
-      className="draggable-bird-container"
+      className="moveable-bird-container"
       style={{
         position: 'relative',
       }}
     >
       <div
-        className="draggable-bird"
+        className="moveable-bird"
         style={{
           position: 'absolute',
           left: position.x + 'px',
@@ -65,7 +65,7 @@ function MoveableBird(props) {
       >
         <img
           src="/images/ssc_animated.webp"
-          alt="Draggable Bird"
+          alt="Moveable Bird"
         />
       </div>
     </div>

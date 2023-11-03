@@ -144,17 +144,17 @@ label {
 }
 
 /****************************************************/
-/* Draggable Super Space Chicken for mobile devices */
-.draggable-bird-container {
+/* Moveable Super Space Chicken for mobile devices */
+.moveable-bird-container {
   display: none;
 }
 
-.draggable-bird-container.touch-supported {
+.moveable-bird-container.touch-supported {
   display: block;
   touch-action: none;
 }
 
-.draggable-bird {
+.moveable-bird {
   cursor: grab; /* Set a grabbing cursor to indicate that it's draggable */
   user-select: none; /* Disable text selection while dragging */
   transition: transform 0.2s; /* Add a smooth transition effect when dragging */
@@ -165,7 +165,7 @@ label {
   height: 4em;
 }
 
-.draggable-bird img {
+.moveable-bird img {
   width: 5em;
   height: auto;
 }
@@ -330,7 +330,7 @@ label {
     width: 100%;
   }
 
-  .draggable-bird {
+  .moveable-bird {
     display: block;
   }
 }
