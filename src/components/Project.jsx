@@ -8,12 +8,12 @@ import MoveableBird from './MoveableBird';
 
 export default function Project() {
 
-  const [isMoving, setIsMoving] = useState(false);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isBirdMoving, setBirdIsMoving] = useState(false);
+  const [birdPosition, setBirdPosition] = useState({ x: 0, y: 0 });
 
   const handleMoveableBirdData = (moving, newPosition) => {
-    setIsMoving(moving);
-    setPosition(newPosition);
+    setBirdIsMoving(moving);
+    setBirdPosition(newPosition);
   };
 
   return (
@@ -72,7 +72,7 @@ export default function Project() {
           <img src='images/screenshot_h0ldb1nz.png' className='project-screenshot'></img>
         </MDBCol>
       </MDBRow>
-      <MoveableBird isDragging={isMoving} onMoveableBirdData={handleMoveableBirdData} />
+      <MoveableBird isDragging={isBirdMoving} onMoveableBirdData={handleMoveableBirdData} />
     </MDBContainer>
   )
 }
