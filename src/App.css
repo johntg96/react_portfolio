@@ -1,10 +1,16 @@
+/****************************************************/
+/* CSS Variables */
 :root {
   --blue: #145369;
   --light-blue: #97caf5;
   --dark-blue: #073d5c;
   --light-gray: #292929;
 }
+/****************************************************/
 
+
+/****************************************************/
+/* General */
 body {
   background-color: #1E1E1E;
 }
@@ -39,7 +45,10 @@ label {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--dark-blue);
 }
+/****************************************************/
 
+/****************************************************/
+/* Navbar */
 #navbar {
   position: sticky;
   top: 0;
@@ -77,6 +86,8 @@ label {
 .nav-project-link a:hover {
   color: #8ad7f3;
 }
+/****************************************************/
+
 
 .me-cats-art {
   float: right;
@@ -84,6 +95,9 @@ label {
   margin: 0.5em 1em 0.5em 1em;
 }
 
+
+/****************************************************/
+/* Featured Projects */
 #project-title {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -121,12 +135,45 @@ label {
   width: 20em;
   height: auto;
 }
+/****************************************************/
+
 
 #about-me-img-container {
   display: flex;
   justify-content: flex-end;
 }
 
+/****************************************************/
+/* Draggable Super Space Chicken for mobile devices */
+.draggable-bird-container {
+  display: none;
+}
+
+.draggable-bird-container.touch-supported {
+  display: block;
+  touch-action: none;
+}
+
+.draggable-bird {
+  cursor: grab; /* Set a grabbing cursor to indicate that it's draggable */
+  user-select: none; /* Disable text selection while dragging */
+  transition: transform 0.2s; /* Add a smooth transition effect when dragging */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 4em;
+  height: 4em;
+}
+
+.draggable-bird img {
+  width: 4em;
+  height: auto;
+}
+/****************************************************/
+
+
+/****************************************************/
+/* Animated profile image */
 #about-me-img {
   width: 15em;
   height: 15em;
@@ -136,7 +183,11 @@ label {
   box-shadow: -15px 5px 25px 0px rgba(253,82,127,0.3),-44px -51px 33px -55px rgba(254, 228, 26,0.3),4px 0px 25px 10px rgba(73, 225, 210,0.3);
   cursor: url('/images/ssc_cursor.webp'), auto;
 }
+/****************************************************/
 
+
+/****************************************************/
+/* About Me Section */
 .about-me-bullet-list {
   width: 20em;
   justify-content: flex-start;
@@ -227,6 +278,8 @@ label {
   width: 2.5em;
   height: auto;
 }
+/****************************************************/
+
 
 #image-banner {
   width: 100%;
@@ -244,6 +297,7 @@ label {
   margin-top: 1.5em;
 }
 
+/****************************************************/
 /* CSS Media Queries */
 @media (max-width: 1000px) {
   .about-me-content {
@@ -274,6 +328,10 @@ label {
 
   .personal-description {
     width: 100%;
+  }
+
+  .draggable-bird {
+    display: block;
   }
 }
 
@@ -323,3 +381,4 @@ label {
     max-width: 70em;
   }
 }
+/****************************************************/
