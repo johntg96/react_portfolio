@@ -8,7 +8,7 @@ import MoveableBird from './MoveableBird';
 
 export default function Project() {
 
-  const [isMoving, setIsMoving] = useState(false);
+  const [isDragging, setIsMoving] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   const handleMoveableBirdData = (moving, newPosition) => {
@@ -79,7 +79,7 @@ export default function Project() {
 
       </MDBRow>
       {/* MoveableBird is a small super space chicken that the user can drag around if using a touchscreen capable device */}
-      <MoveableBird isMoving={isMoving} onMoveableBirdData={handleMoveableBirdData} />
+      <MoveableBird isDragging={isDragging} onMoveableBirdData={handleMoveableBirdData} />
     </MDBContainer>
   )
 }

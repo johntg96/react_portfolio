@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 function MoveableBird(props) {
-  const { isMoving, onMoveableBirdData } = props;
+  const { isDragging, onMoveableBirdData } = props;
   const [initialPosition, setInitialPosition] = useState({ x: 0, y: 0 });
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
@@ -29,7 +29,7 @@ function MoveableBird(props) {
   };
 
   const handleTouchMove = (e) => {
-    if (isMoving) {
+    if (isDragging) {
       e.stopPropagation();
       console.log("Touch drag event");
       const touch = e.touches[0];
