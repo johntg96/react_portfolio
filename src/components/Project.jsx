@@ -11,9 +11,9 @@ export default function Project() {
   const [isBirdMoving, setBirdIsMoving] = useState(false);
   const [birdPosition, setBirdPosition] = useState({ x: 0, y: 0 });
 
-  const handleMoveableBirdData = (moving, newPosition) => {
+  const handleMoveableBirdData = (moving, newBirdPosition) => {
     setBirdIsMoving(moving);
-    setBirdPosition(newPosition);
+    setBirdPosition(newBirdPosition);
   };
 
   return (
