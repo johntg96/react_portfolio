@@ -31,9 +31,9 @@ export default function Project() {
           </div>
           <p>
           ThinkSync is a website that after creating an account, allows you to narrow down a set of ideas under a general topic or question. All of the entered ideas are then paired together, forcing the user to select a winner from each pair. They are then shuffled, paired again, and the cycle continues until a final winner for your topic or question results. The vote count for each idea and the overall winner is stored in your account.</p>
-          
-          <br/>
-          <img src='images/screenshot_thinksync.png' className='project-screenshot'></img>
+          <div className='d-flex justify-content-center align-content-center' style={{backgroundColor:'gray'}}>
+            <img src='images/screenshot_thinksync.png' className='project-screenshot'></img>
+          </div>
         </MDBCol>
 
       </MDBRow>
@@ -42,13 +42,17 @@ export default function Project() {
       <MDBCol id='project-2' className='project-item'>
           <h4><a href='https://johntg96.github.io/konsoom/' title='visit deployed application'>konsoom&nbsp;&nbsp;<img src='images/project-icons/konsoom.ico' style={{width: '1.5em'}}/></a>&nbsp;&nbsp;<a href='https://github.com/johntg96/konsoom' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
           <p>A collaborative project curating a movie and TV series list for future viewing, with cover art, dark mode, and persistent data storage using browser local storage. Data fetched through the OMDB API for comprehensive results.</p>
-          <img src='images/screenshot_konsoom.png' className='project-screenshot'></img>
+          <div className='d-flex justify-content-center align-content-center' style={{backgroundColor:'gray'}}>
+            <img src='images/screenshot_konsoom.png' className='project-screenshot'></img>
+          </div>
         </MDBCol>
 
         <MDBCol id='project-3' className='project-item'>
           <h4><a href='https://tech-blog-johntg96-6194751df56d.herokuapp.com/' title='visit deployed application'>tech_blog</a>&nbsp;&nbsp;<a href='https://github.com/johntg96/tech_blog' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
-          <p>Created using sequelize and express, this application has login/signup functionality and pages generated via Handlebars.</p>
-          <img src='images/screenshot_tech_blog.png' className='project-screenshot'></img>
+          <p>Created using sequelize and express, this application has login/signup functionality and pages generated via Handlebars. This was a homework assignment for coding bootcamp to practice working on connecting databases with session cookies, and dynamically generated static pages.</p>
+          <div className='d-flex justify-content-center align-content-center' style={{backgroundColor:'gray'}}>
+            <img src='images/screenshot_tech_blog.png' className='project-screenshot'></img>
+          </div>
         </MDBCol>
 
         <MDBCol id='project-4' className='project-item'>
@@ -58,7 +62,9 @@ export default function Project() {
             <li>Created as a hobby project for learning purposes</li>
             <li>I used this tool during my role as a maintenance associate at the YMCA.</li>
           </ul>
-          <img src='images/screenshot_waterCalc.png' className='project-screenshot'></img>
+          <div className='d-flex justify-content-center align-content-center' style={{backgroundColor:'gray'}}>
+            <img src='images/screenshot_waterCalc.png' className='project-screenshot'></img>
+          </div>
         </MDBCol>
 
       </MDBRow>
@@ -76,7 +82,9 @@ export default function Project() {
             </ul>
             <li>After I achieved my primary goals, I utilized the application at work weekly for a period of 6 months, using it to gather data to later make email reports.</li>
           </ul>
-          <img src='images/screenshot_h0ldb1nz.png' className='project-screenshot'></img>
+          <div className='d-flex justify-content-center align-content-center' style={{backgroundColor:'gray'}}>
+            <img src='images/screenshot_h0ldb1nz.png' className='project-screenshot'></img>
+          </div>
         </MDBCol>
       </MDBRow>
       <MoveableBird isDragging={isBirdMoving} onMoveableBirdData={handleMoveableBirdData} />
