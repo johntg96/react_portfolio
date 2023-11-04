@@ -65,35 +65,35 @@ export default function App() {
                     <a href='https://github.com/johntg96/konsoom'>konsoom</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link  nav-project-link-alt-bg'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/tech_blog'>tech_blog</a> 
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/Weather-Dashboard'>Weather Dashboard</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/JavaScript-Code-Quiz'>JS Code Quiz</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/h0ldb1nz'>h0ldb1nz</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/watercalc'>waterCalc</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/readme_generator'>README Generator</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
+                  <MDBDropdownItem className='nav-project-link'>
                     <a href='https://github.com/johntg96/Daily-Task-List'>Daily Task List</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link'>
+                  <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/super_space_chicken'>Super Space Chicken</a> 
                   </MDBDropdownItem>
 
