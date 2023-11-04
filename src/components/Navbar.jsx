@@ -65,20 +65,16 @@ export default function App() {
                     <a href='https://github.com/johntg96/konsoom'>konsoom</a>
                   </MDBDropdownItem>
 
-                  <MDBDropdownItem className='nav-project-link'>
-                    <a href='https://github.com/johntg96/super_space_chicken'>Super Space Chicken</a> 
-                  </MDBDropdownItem>
-
                   <MDBDropdownItem className='nav-project-link  nav-project-link-alt-bg'>
                     <a href='https://github.com/johntg96/tech_blog'>tech_blog</a> 
                   </MDBDropdownItem>
 
                   <MDBDropdownItem className='nav-project-link'>
-                    <a href='https://github.com/johntg96/module6_weather_dashboard'>Weather Dashboard</a>
+                    <a href='https://github.com/johntg96/Weather-Dashboard'>Weather Dashboard</a>
                   </MDBDropdownItem>
 
                   <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
-                    <a href='https://github.com/johntg96/module4_code_quiz'>code_quiz</a>
+                    <a href='https://github.com/johntg96/JavaScript-Code-Quiz'>JS Code Quiz</a>
                   </MDBDropdownItem>
 
                   <MDBDropdownItem className='nav-project-link'>
@@ -94,7 +90,11 @@ export default function App() {
                   </MDBDropdownItem>
 
                   <MDBDropdownItem className='nav-project-link nav-project-link-alt-bg'>
-                    <a href='https://github.com/johntg96/module5_work_day_scheduler'>Work Day Scheduler</a>
+                    <a href='https://github.com/johntg96/Daily-Task-List'>Daily Task List</a>
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem className='nav-project-link'>
+                    <a href='https://github.com/johntg96/super_space_chicken'>Super Space Chicken</a> 
                   </MDBDropdownItem>
 
                   <MDBDropdownItem className='nav-project-link'>
