@@ -24,8 +24,10 @@ export default function Project() {
       <MDBRow>
 
         <MDBCol id='project-1' className='project-item'>
-          <h4><a href='https://thinksync-1e5fbc55e5f7.herokuapp.com/' title='visit deployed application'>ThinkSync <img src='/images/project-icons/thinksync.ico' style={{width: '1.5em'}}/></a>&nbsp;&nbsp;<a href='https://github.com/johntg96/ThinkSync' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
-          <p>ThinkSync is a web application for coming to a decision between multiple ideas. It is created with MongoDB, Express.js, React.js, Node.js (MERN stack) and Material Design for Bootstrap CSS framework. This is my final group project for University of Minnesota Full-Stack Web Development Coding Bootcamp.</p>
+          <h4><a href='https://thinksync-1e5fbc55e5f7.herokuapp.com/' title='visit deployed application'>ThinkSync </a>&nbsp;<a href='https://github.com/johntg96/ThinkSync' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
+          <p>Imagine you have a pool of ideas but it is overflowing. Faucets of thoughts continually filling this pool. It is your job to turn off the valves for each idea so you can come to a solid stream of directional flow.
+          <img src='/images/project-icons/logo_small.png' style={{width: '5em', float:'left'}}/>
+          &nbsp;ThinkSync is a website that after creating an account, allows you to narrow down a set of ideas under a general topic or question. All of the entered ideas are then paired together, forcing the user to select a winner from each pair. They are then shuffled, paired again, and the cycle continues until a final winner for your topic or question results. The vote count for each idea and the overall winner is stored in your account.</p>
           <img src='images/screenshot_thinksync.png' className='project-screenshot'></img>
         </MDBCol>
 
