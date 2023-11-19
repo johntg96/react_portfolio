@@ -49,69 +49,65 @@ export default function About() {
           </MDBRow>
         </MDBContainer>
         <MDBContainer className='mb-4'>
-          <MDBRow>
-            <MDBCol>
-              <p className='mt-4'><em>I am familiar to fluent in these languages, libraries, and frameworks (and always learning):</em></p>
-              <div className='mt-4 tech-chip-container'>
-                <div className='tech-chip'>
-                  <p>HTML</p>
-                  <img src='/images/tech-chip-icons/html.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>CSS</p>
-                  <img src='/images/tech-chip-icons/css.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>JavaScript</p>
-                  <img src='/images/tech-chip-icons/javascript.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>React</p>
-                  <img src='/images/tech-chip-icons/react.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>Node</p>
-                  <img src='/images/tech-chip-icons/node.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>Express</p>
-                  <img src='/images/tech-chip-icons/express.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>MongoDB</p>
-                  <img src='/images/tech-chip-icons/mongodb.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>Mongoose</p>
-                  <img src='/images/tech-chip-icons/mongoose.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>MySQL</p>
-                  <img src='/images/tech-chip-icons/mysql.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>Sequelize</p>
-                  <img src='/images/tech-chip-icons/sequelize.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>Bootstrap</p>
-                  <img src='/images/tech-chip-icons/bootstrap.png'/>
-                </div>
-                {/* <div className='tech-chip'>
-                  <p>Tailwind</p>
-                  <img src='/images/tech-chip-icons/tailwind.png'/>
-                </div> */}
-                <div className='tech-chip'>
-                  <p>JQuery</p>
-                  <img src='/images/tech-chip-icons/jquery.png'/>
-                </div>
-                <div className='tech-chip'>
-                  <p>Python</p>
-                  <img src='/images/tech-chip-icons/python.png'/>
-                </div>
+            <div className='mt-4 tech-chip-container'>
+              <div className='tech-chip'>
+                <p>HTML</p>
+                <img src='/images/tech-chip-icons/html.png'/>
               </div>
-          </MDBCol>
-        </MDBRow>
+              <div className='tech-chip'>
+                <p>CSS</p>
+                <img src='/images/tech-chip-icons/css.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>JavaScript</p>
+                <img src='/images/tech-chip-icons/javascript.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>React</p>
+                <img src='/images/tech-chip-icons/react.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>Node</p>
+                <img src='/images/tech-chip-icons/node.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>Express</p>
+                <img src='/images/tech-chip-icons/express.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>MongoDB</p>
+                <img src='/images/tech-chip-icons/mongodb.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>Mongoose</p>
+                <img src='/images/tech-chip-icons/mongoose.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>MySQL</p>
+                <img src='/images/tech-chip-icons/mysql.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>Sequelize</p>
+                <img src='/images/tech-chip-icons/sequelize.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>Bootstrap</p>
+                <img src='/images/tech-chip-icons/bootstrap.png'/>
+              </div>
+              {/* <div className='tech-chip'>
+                <p>Tailwind</p>
+                <img src='/images/tech-chip-icons/tailwind.png'/>
+              </div> */}
+              <div className='tech-chip'>
+                <p>JQuery</p>
+                <img src='/images/tech-chip-icons/jquery.png'/>
+              </div>
+              <div className='tech-chip'>
+                <p>Python</p>
+                <img src='/images/tech-chip-icons/python.png'/>
+              </div>
+            </div>
+         
       </MDBContainer>
     </>
   )
