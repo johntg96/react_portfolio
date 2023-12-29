@@ -177,10 +177,10 @@ label {
 #about-me-img {
   width: 15em;
   height: auto;
-  border-radius: 50%;
+  border-radius: 1.2em;
   margin-left: 0;
   margin-right: 0.5em;
-  box-shadow: 0px 0px 50px 0px rgba(29,60,49,1);
+  box-shadow: 0px 0px 14px 1px rgba(229,98,25,1);
   /* ,-44px -51px 33px -55px rgba(254, 228, 26,0.3),4px 0px 25px 10px rgba(73, 225, 210,0.3); */
   cursor: url('/images/ssc_cursor.webp'), auto;
 }
