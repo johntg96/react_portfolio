@@ -97,11 +97,11 @@ export default function ContactForm() {
         </MDBBtn>
         {status !== null && (
           <div>
-            {/* Display the status message to the user based on the status code */}
+            {/* Let user know if email was sent successfully or not*/}
             {status === 200 ? (
-              <p className='emailSendStatus'>Email sent <span style={{color:'lightgreen'}}>successfully</span>! Status: <span style={{color:'lightgreen'}}>{status}</span></p>
+              <p className='emailSendStatus'>Email sent <span style={{color:'lightgreen'}}>successfully</span></p>
             ) : (
-              <p className='emailSendStatus'><span style={{color:'red'}}>Error</span> sending email. Status: <span style={{color:'red'}}>{status}</span></p>
+              <p className='emailSendStatus'><span style={{color:'red'}}>Error</span> sending email.</p>
             )}
           </div>
         )}
