@@ -9,6 +9,7 @@ import {  MDBContainer,
 import { sendCustomEmail } from './email';
 
 export default function ContactForm() {
+  
   const [details, setDetails] = useState({
     name: '',
     email: '',
