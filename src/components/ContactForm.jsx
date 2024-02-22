@@ -6,91 +6,81 @@ import {  MDBContainer,
           MDBBtn,
           MDBTextArea
         } from 'mdb-react-ui-kit';
+import { sendCustomEmail } from './email';
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
+  const [details, setDetails] = useState({
     name: '',
     email: '',
     message: '',
   });
 
-  const handleChange = (e) => {
+  const handleDetailsChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
+
+    setDetails((prevDetails) => {
+      return {
+        ...prevDetails,
+        [name]: value,
+      }
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // handle form submission here, fetch call to server
-    console.log('Form submitted with data:', formData);
-
-    setFormData({
-      name: '',
-      email: '',
-      message: '',
-    });
+  const handleSendEmail = () => {
+      sendCustomEmail(details);
   };
 
   return (
     <>
       <h2 className='mt-5 d-flex flex-nowrap justify-content-center align-items-center'>Contact Me</h2>
 
-      <MDBContainer className='mt-4 d-flex justify-content-center align-items-center'>
-        <MDBRow>
-          <MDBCol>
-
-          </MDBCol>
-          <MDBCol>
-            
-          </MDBCol>
-          <MDBCol>
-            
-          </MDBCol>
-        </MDBRow>
-        <form onSubmit={handleSubmit}>
-          <div>
+      <MDBContainer className='mt-4 mb-5 d-flex justify-content-center align-items-center'>
+        <MDBCol>
+          <MDBRow className='mb-3'>
             <MDBInput
               label="name"
               type="text"
               id="name"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
+              value={details.name}
+              onChange={handleDetailsChange}
               required
               contrast
               className='input-box'
             />
-          </div>
-          <div>
-            <MDBInput
+          </MDBRow>
+        <MDBRow  className='mb-3'>
+          <MDBInput
               label="email"
               type="email"
               id="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
+              value={details.email}
+              onChange={handleDetailsChange}
               required
               contrast
               className='input-box'
             />
-          </div>
-          <div>
-            <MDBTextArea
-              label="message"
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-              contrast
-              className='input-box'
-            ></MDBTextArea>
-          </div>
-          <MDBBtn className='mt-4' type="submit">Submit</MDBBtn>
-        </form>
+        </MDBRow>
+        <MDBRow>
+          <MDBTextArea
+            label="message"
+            id="message"
+            name="message"
+            value={details.message}
+            onChange={handleDetailsChange}
+            required
+            contrast
+            className='input-box'
+          ></MDBTextArea>
+        </MDBRow>
+        <MDBBtn className='mt-4' 
+                disabled={!details.name || !details.email || !details.message}
+                onClick={handleSendEmail}
+        >
+          Send Email
+        </MDBBtn>
+      </MDBCol>
       </MDBContainer>
     </>
   );

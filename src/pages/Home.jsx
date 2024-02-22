@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../components/Project'
 import About from '../components/About'
+import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <div id='image-banner-reversed'></div>
       <Project />
       <div id='image-banner'></div>
+      <ContactForm />
       <Footer />
     </>
   )
