@@ -382,3 +382,11 @@ label {
   }
 }
 /****************************************************/
+.emailSendStatus {
+  margin-top: 1em;
+  font-family: monospace;
+  font-size: 0.8em;
+  background-color: black;
+  border-radius: 0.5em;
+  padding: 0.4em
+}

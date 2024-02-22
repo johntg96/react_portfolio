@@ -15,6 +15,8 @@ export default function ContactForm() {
     message: '',
   });
 
+  const [status, setStatus] = useState(null);
+
   const handleDetailsChange = (e) => {
     const { name, value } = e.target;
 
@@ -26,8 +28,20 @@ export default function ContactForm() {
     });
   };
 
-  const handleSendEmail = () => {
-      sendCustomEmail(details);
+  const handleSendEmail = async () => {
+    try {
+      await sendCustomEmail(details);
+      setStatus(200);
+      setDetails({
+        name: '',
+        email: '',
+        message: ''
+      });
+    } catch (err) {
+      console.error('Error sending email:', err);
+      setStatus(500);
+    }
+      
   };
 
   return (
@@ -80,6 +94,16 @@ export default function ContactForm() {
         >
           Send Email
         </MDBBtn>
+        {status !== null && (
+          <div>
+            {/* Display the status message to the user based on the status code */}
+            {status === 200 ? (
+              <p className='emailSendStatus'>Email sent <span style={{color:'lightgreen'}}>successfully</span>! Status: <span style={{color:'lightgreen'}}>{status}</span></p>
+            ) : (
+              <p className='emailSendStatus'><span style={{color:'red'}}>Error</span> sending email. Status: <span style={{color:'red'}}>{status}</span></p>
+            )}
+          </div>
+        )}
       </MDBCol>
       </MDBContainer>
     </>
