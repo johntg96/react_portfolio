@@ -101,7 +101,7 @@ export default function ContactForm() {
             {status === 200 ? (
               <p className='emailSendStatus'>Email sent <span style={{color:'lightgreen'}}>successfully</span></p>
             ) : (
-              <p className='emailSendStatus'><span style={{color:'red'}}>Error</span> sending email.</p>
+              <p className='emailSendStatus'><span style={{color:'red'}}>Error</span> sending email</p>
             )}
           </div>
         )}

@@ -384,10 +384,11 @@ label {
 }
 /****************************************************/
 .emailSendStatus {
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-family: monospace;
   font-size: 0.8em;
   background-color: black;
   border-radius: 0.5em;
-  padding: 0.4em
+  padding: 0.4em;
+  width: 15em;
 }
