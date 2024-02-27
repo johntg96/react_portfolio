@@ -50,7 +50,7 @@ export default function ContactForm() {
   };
 
   const handleSendEmail = async () => {
-    let emailRegex = /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
+    let emailRegex = /^[a-z0-9]+@(?!.*@)[a-z]+\.[a-z]{2,3}$/;
 
     if (!emailRegex.test(details.email)) {
       // invalid email
