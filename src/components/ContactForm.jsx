@@ -78,7 +78,7 @@ export default function ContactForm() {
 
       <MDBContainer className='mt-4 mb-5 d-flex justify-content-center align-items-center'>
         <MDBCol>
-          <MDBRow className='mb-3'>
+          <MDBRow className='mb-3 ms-2 me-2'>
             <MDBInput
               label="name"
               type="text"
@@ -91,7 +91,7 @@ export default function ContactForm() {
               className='input-box'
             />
           </MDBRow>
-          <MDBRow  className='mb-3'>
+          <MDBRow  className='mb-3 ms-2 me-2'>
             <MDBInput
                 label="email"
                 type="email"
@@ -104,7 +104,7 @@ export default function ContactForm() {
                 className='input-box'
               />
           </MDBRow>
-          <MDBRow>
+          <MDBRow className='ms-2 me-2'>
             <MDBTextArea
               label="message"
               id="message"
@@ -116,7 +116,7 @@ export default function ContactForm() {
               className='input-box'
             ></MDBTextArea>
           </MDBRow>
-          <MDBBtn className='mt-4' 
+          <MDBBtn className='mt-4 ms-2'
                   color='dark'
                   style={{border:'2px solid #97caf5'}}
                   disabled={!details.name || !details.email || !details.message}
