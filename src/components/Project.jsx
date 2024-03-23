@@ -48,10 +48,10 @@ export default function Project() {
         </MDBCol>
 
         <MDBCol id='project-3' className='project-item'>
-          <h4><a href='https://tech-blog-johntg96-6194751df56d.herokuapp.com/' title='visit deployed application'>tech_blog</a>&nbsp;&nbsp;<a href='https://github.com/johntg96/tech_blog' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
-          <p>Created using sequelize and express, this application has login/signup functionality and pages generated via Handlebars. This was a homework assignment for coding bootcamp to practice working on connecting databases with session cookies, and dynamically generated static pages.</p>
+          <h4><a href='https://johntg96.github.io/Weather-Dashboard/' title='visit deployed application'>Weather Dashboard</a>&nbsp;&nbsp;<a href='https://github.com/johntg96/Weather-Dashboard/' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
+          <p>Weather Dashboard fetches weather data from OpenWeatherMap and saves search queries in local storage.</p>
           <div className='d-flex justify-content-center align-content-center' style={{backgroundColor:'gray'}}>
-            <img src='images/screenshot_tech_blog.png' className='project-screenshot'></img>
+            <img src='images/screenshot_weather_dashboard.png' className='project-screenshot'></img>
           </div>
         </MDBCol>
 
