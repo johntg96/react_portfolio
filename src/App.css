@@ -41,13 +41,13 @@ label {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--light-blue);
+  background: var(--light-red);
   border-radius: 6px;
-  border: 1px solid var(--blue)
+  border: 1px solid var(--red)
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--dark-blue);
+  background: var(--dark-red);
 }
 /****************************************************/
 
