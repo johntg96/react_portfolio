@@ -14,3 +14,4 @@ On it you will find summaries of my web development projects and more informatio
   
 Screenshot:
 ![website screenshot](./public/images/screenshot_react_portfolio.png)
+
