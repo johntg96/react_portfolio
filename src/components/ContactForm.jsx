@@ -118,7 +118,7 @@ export default function ContactForm() {
           </MDBRow>
           <MDBBtn className='mt-4 ms-2'
                   color='dark'
-                  style={{border:'2px solid #97caf5'}}
+                  style={{border:'2px solid #991a1a'}}
                   disabled={!details.name || !details.email || !details.message}
                   onClick={handleSendEmail}
           >
@@ -138,12 +138,12 @@ export default function ContactForm() {
         <MDBModal show={showModal} onHide={handleCloseModal}>
           <MDBModalDialog>
             <MDBModalContent>
-              <MDBModalHeader style={{backgroundColor:'#145369', color:'white'}} className='d-flex justify-content-center'>Invalid Email</MDBModalHeader>
-              <MDBModalBody style={{backgroundColor:'#145369', color:'white'}} className='d-flex justify-content-center'>
+              <MDBModalHeader style={{backgroundColor:'#991a1a', color:'white'}} className='d-flex justify-content-center'>Invalid Email</MDBModalHeader>
+              <MDBModalBody style={{backgroundColor:'#661313', color:'white'}} className='d-flex justify-content-center'>
                 <em>Please enter a valid email address.</em>
               </MDBModalBody>
-              <MDBModalFooter style={{backgroundColor:'#145369', color:'white'}} className='d-flex justify-content-center'>
-                <MDBBtn color='secondary' onClick={handleCloseModal}>Dismiss</MDBBtn>
+              <MDBModalFooter style={{backgroundColor:'#661313', color:'white'}} className='d-flex justify-content-center'>
+                <MDBBtn color='danger' onClick={handleCloseModal}>Dismiss</MDBBtn>
               </MDBModalFooter>
             </MDBModalContent>
           </MDBModalDialog>

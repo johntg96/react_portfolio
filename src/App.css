@@ -5,6 +5,10 @@
   --light-blue: #97caf5;
   --dark-blue: #073d5c;
   --light-gray: #292929;
+  --green: #1a9922;
+  --red: #991a1a;
+  --light-red: #ed4e4e;
+  --dark-red: #661313;
 }
 /****************************************************/
 
@@ -52,23 +56,20 @@ label {
 #navbar {
   position: sticky;
   top: 0;
-  background-color: var(--blue);
+  background-color: var(--red);
   z-index: 100;
+  opacity: 80%;
 }
 
 .navbar-link {
-  color: var(--light-blue);
-  margin: 0;
+  color: white;
+  margin: 0; 
   padding: 0;
   border-radius: 0.3em;
 }
 
 .navbar-link:hover {
-  color: #c5e7f3;
-}
-
-.navbar-link:hover {
-  background-color: #2c2c2c;
+  color: yellow;
 }
 
 .nav-project-link-alt-bg {
@@ -84,7 +85,7 @@ label {
 }
 
 .nav-project-link a:hover {
-  color: #8ad7f3;
+  color: yellow;
 }
 /****************************************************/
 
@@ -284,14 +285,14 @@ label {
 
 #image-banner {
   width: 100%;
-  height: 6em;
-  background-image: linear-gradient(to top, #051937, #044268, #007199, #00a3c6, #0ed8eb);
+  height: 8em;
+  background-image: linear-gradient(to top, var(--dark-red), var(--red), var(--light-red ));
 }
 
 #image-banner-reversed {
   width: 100%;
-  height: 6em;
-  background-image: linear-gradient(to bottom, #051937, #044268, #007199, #00a3c6, #0ed8eb);
+  height: 8em;
+  background-image: linear-gradient(to bottom, var(--dark-red), var(--red), var(--light-red));
 }
 
 .input-box {
