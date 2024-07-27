@@ -5,7 +5,9 @@
   --light-blue: #97caf5;
   --dark-blue: #073d5c;
   --light-gray: #292929;
+  --dark-green: #155209;
   --green: #1a9922;
+  --light-green: #10d820;
   --red: #991a1a;
   --light-red: #ed4e4e;
   --dark-red: #661313;
@@ -41,13 +43,13 @@ label {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--light-red);
+  background: var(--light-green);
   border-radius: 6px;
-  border: 1px solid var(--red)
+  border: 1px solid var(--green)
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--dark-red);
+  background: var(--dark-green);
 }
 /****************************************************/
 
@@ -56,7 +58,7 @@ label {
 #navbar {
   position: sticky;
   top: 0;
-  background-color: var(--red);
+  background-color: var(--green);
   z-index: 100;
   opacity: 80%;
 }
@@ -286,13 +288,13 @@ label {
 #image-banner {
   width: 100%;
   height: 8em;
-  background-image: linear-gradient(to top, var(--dark-red), var(--red), var(--light-red ));
+  background-image: linear-gradient(to top, var(--dark-green), var(--green), var(--light-green ));
 }
 
 #image-banner-reversed {
   width: 100%;
   height: 8em;
-  background-image: linear-gradient(to bottom, var(--dark-red), var(--red), var(--light-red));
+  background-image: linear-gradient(to bottom, var(--dark-green), var(--green), var(--light-green));
 }
 
 .input-box {

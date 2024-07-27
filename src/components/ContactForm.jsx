@@ -118,7 +118,7 @@ export default function ContactForm() {
           </MDBRow>
           <MDBBtn className='mt-4 ms-2'
                   color='dark'
-                  style={{border:'2px solid #991a1a'}}
+                  style={{border:'2px solid #155209'}}
                   disabled={!details.name || !details.email || !details.message}
                   onClick={handleSendEmail}
           >
