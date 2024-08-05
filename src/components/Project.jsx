@@ -24,7 +24,7 @@ export default function Project() {
       <MDBRow>
 
         <MDBCol id='project-1' className='project-item'>
-          <h4><a href='https://thinksync-1e5fbc55e5f7.herokuapp.com/' title='visit deployed application'>ThinkSync </a>&nbsp;<a href='https://github.com/johntg96/ThinkSync' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
+          <h4><a href='https://thinksync-cd83f331c4e6.herokuapp.com/' title='visit deployed application'>ThinkSync </a>&nbsp;<a href='https://github.com/johntg96/ThinkSync' title='go to GitHub repository'><MDBIcon fab icon='github' /></a></h4>
           <p>Imagine you have a pool of ideas but it is overflowing. Faucets of thoughts continually filling this pool. It is your job to turn off the valves for each idea so you can come to a solid stream of directional flow.</p>
           <div className='d-flex justify-content-center align-content-center'>
             <img src='/images/project-icons/logo_small.png' style={{width: '5em'}}/>
