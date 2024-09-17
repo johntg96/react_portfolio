@@ -11,7 +11,7 @@
   
 This is my web development portfolio website (developed with React.js library).
 On it you will find summaries of my web development projects and more information about me as a web developer.
-  
+
 Screenshot:
 ![website screenshot](./public/images/screenshot_react_portfolio.png)
 
