@@ -46,8 +46,8 @@ export default function About() {
                   <br/>
                   <li>YMCA</li>
                     <ul>
-                      <li>Position: Maitenance Associate</li>
-                      <li>At the YMCA I was involved with general building maitenance. One of my duties was to check the pool and hot-tub water balance to see whether chemicals needed to be added to the water.
+                      <li>Position: Maintenance Associate</li>
+                      <li>At the YMCA I was involved with general building maintenance. One of my duties was to check the pool and hot-tub water balance to see whether chemicals needed to be added to the water.
                         The calculations are simple, yet time-consuming enough that I built a simple UI to perform the calculations with JavaScript. This was one of my <em>first</em> web development applications <em style={{ fontSize: "80%" }}>(waterCalc)</em>.
                       </li>
                     </ul>
