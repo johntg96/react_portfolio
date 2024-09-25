@@ -9,7 +9,7 @@
 * Find me on [LinkedIn](https://www.linkedin.com/in/johntg96/).  
 
 ![coding artwork](./public/images/me_coding_art.jpeg)  
-
+  
 ## Description  
   
 This is my web development portfolio website (developed with React.js library).
