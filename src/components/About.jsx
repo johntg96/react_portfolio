@@ -73,7 +73,8 @@ export default function About() {
                       </li>
                     </ul>
                 </ul>
-                <img src='images/me_cats_plant_art_fresh.webp' className='me-cats-art'/>
+                <img src='images/me_cats_plant_art_fresh-shadow.webp' className='me-cats-art-with-shadows'/>
+                <img src='images/me_cats_plant_art_fresh.webp' className='me-cats-art-without-shadows'/>
                 My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
               </p>
             </div>

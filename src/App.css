@@ -92,8 +92,16 @@ label {
 /****************************************************/
 
 
-.me-cats-art {
+.me-cats-art-with-shadows {
+  display: block;
   float: right;
+  width: 18em;
+  margin: 0.5em 1em 0.5em 1em;
+}
+
+.me-cats-art-without-shadows {
+  display: none;
+  float:right;
   width: 18em;
   margin: 0.5em 1em 0.5em 1em;
 }
@@ -313,7 +321,7 @@ label {
     justify-content: flex-end;
   }
 
-  .me-cats-art {
+  .me-cats-art-without-shadows {
     width: 40%;
     height: 40%;
   }
@@ -322,9 +330,16 @@ label {
 }
 
 @media (max-width: 768px) {
-  .me-cats-art {
+  .me-cats-art-without-shadows {
     width: 40%;
     height: 40%;
+    display: block;
+  }
+
+  .me-cats-art-with-shadows {
+    width: 40%;
+    height: 40%;
+    display: none;
   }
 
   #cert-badge {
@@ -362,14 +377,14 @@ label {
     padding-right: 0.5em;
   }
 
-  .me-cats-art {
+  .me-cats-art-without-shadows {
     width: 55%;
     height: 55%;
   }
 }
 
 @media (min-width: 768px) {
-  .me-cats-art {
+  .me-cats-art-with-shadows {
     margin-bottom: -2.6em;
   }
 }
