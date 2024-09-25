@@ -14,7 +14,7 @@ export default function About() {
         <MDBRow>
           <MDBCol>
             <div id='about-me-img-container' className='mt-4 mb-2' >
-              <img id='about-me-img' src='images/me-within.png'></img>
+              <img id='about-me-img' src='images/me-within.webp'></img>
             </div>
           </MDBCol>
           <MDBCol className='mt-5 about-me-bullet-list'>
@@ -34,7 +34,7 @@ export default function About() {
               <div id='cert-badge-mobile' className='mt-2 mb-3'>
                 <div className='wobble-animation'>
                   <a href='https://www.credly.com/badges/dfed0a33-d201-4047-9e5a-9913d4abdad9/public_url'>
-                    <img src='/images/full-stack-web-development-certificate-coding-boot-camp_mobile.png' alt='certificate badge' style={{width: '7.5em'}}/>
+                    <img src='/images/full-stack-web-development-certificate-coding-boot-camp_mobile.webp' alt='certificate badge' style={{width: '7.5em'}}/>
                   </a>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function About() {
                       </li>
                     </ul>
                 </ul>
-                <img src='images/me_cats_plant_art_fresh.png' className='me-cats-art'/>
+                <img src='images/me_cats_plant_art_fresh.webp' className='me-cats-art'/>
                 My background was in computer hardware repair, but I gradually shifted towards software. I'm dedicated to enhancing my skills to consistently improve the quality of my work.
               </p>
             </div>
@@ -84,59 +84,59 @@ export default function About() {
             <div className='mt-4 tech-chip-container'>
               <div className='tech-chip'>
                 <p>HTML</p>
-                <img src='/images/tech-chip-icons/html.png'/>
+                <img src='/images/tech-chip-icons/html.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>CSS</p>
-                <img src='/images/tech-chip-icons/css.png'/>
+                <img src='/images/tech-chip-icons/css.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>JavaScript</p>
-                <img src='/images/tech-chip-icons/javascript.png'/>
+                <img src='/images/tech-chip-icons/javascript.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>React</p>
-                <img src='/images/tech-chip-icons/react.png'/>
+                <img src='/images/tech-chip-icons/react.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>Node</p>
-                <img src='/images/tech-chip-icons/node.png'/>
+                <img src='/images/tech-chip-icons/node.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>Express</p>
-                <img src='/images/tech-chip-icons/express.png'/>
+                <img src='/images/tech-chip-icons/express.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>MongoDB</p>
-                <img src='/images/tech-chip-icons/mongodb.png'/>
+                <img src='/images/tech-chip-icons/mongodb.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>Mongoose</p>
-                <img src='/images/tech-chip-icons/mongoose.png'/>
+                <img src='/images/tech-chip-icons/mongoose.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>MySQL</p>
-                <img src='/images/tech-chip-icons/mysql.png'/>
+                <img src='/images/tech-chip-icons/mysql.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>Sequelize</p>
-                <img src='/images/tech-chip-icons/sequelize.png'/>
+                <img src='/images/tech-chip-icons/sequelize.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>Bootstrap</p>
-                <img src='/images/tech-chip-icons/bootstrap.png'/>
+                <img src='/images/tech-chip-icons/bootstrap.webp'/>
               </div>
               {/* <div className='tech-chip'>
                 <p>Tailwind</p>
-                <img src='/images/tech-chip-icons/tailwind.png'/>
+                <img src='/images/tech-chip-icons/tailwind.webp'/>
               </div> */}
               <div className='tech-chip'>
                 <p>JQuery</p>
-                <img src='/images/tech-chip-icons/jquery.png'/>
+                <img src='/images/tech-chip-icons/jquery.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>Python</p>
-                <img src='/images/tech-chip-icons/python.png'/>
+                <img src='/images/tech-chip-icons/python.webp'/>
               </div>
             </div>
          
