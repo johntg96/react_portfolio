@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 
-const userId = import.meta.VITE_EMAIL_USER_ID;
-const serviceId = import.meta.VITE_EMAIL_SERVICE_ID;
-const templateId = import.meta.VITE_EMAIL_TEMPLATE_ID;
+const userId = import.meta.env.VITE_EMAIL_USER_ID;
+const serviceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+const templateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
 
 // This uses emailjs service to send an email
 const sendCustomEmail = (details) => {
