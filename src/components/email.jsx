@@ -4,7 +4,18 @@ import emailjs from "@emailjs/browser";
 const sendCustomEmail = (details) => {
 
     // initialize using User ID from .env file
-    emailjs.init(import.meta.env.VITE_EMAIL_USER_ID);
+    emailjs.init({
+        publicKey: import.meta.env.VITE_EMAIL_USER_ID,
+        // Do not allow headless browsers
+        blockHeadless: true,
+        limitRate: {
+          // Set the limit rate for the application
+          id: 'app',
+          // Allow 1 request per 10s
+          throttle: 10000,
+        },
+      });
+      
     emailjs.send(
         import.meta.env.VITE_EMAIL_SERVICE_ID,
         import.meta.env.VITE_EMAIL_TEMPLATE_ID,
