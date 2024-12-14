@@ -4,10 +4,10 @@ import emailjs from "@emailjs/browser";
 const sendCustomEmail = (details) => {
     
     // initialize using User ID from .env file
-    emailjs.init(import.meta.env.VITE_EMAIL_USER_ID);
+    emailjs.init(import.meta.env.EMAIL_USER_ID);
     emailjs.send(
-        import.meta.env.VITE_EMAIL_SERVICE_ID,
-        import.meta.env.VITE_EMAIL_TEMPLATE_ID,
+        import.meta.env.EMAIL_SERVICE_ID,
+        import.meta.env.EMAIL_TEMPLATE_ID,
 
         {
             from_name: details.name,
