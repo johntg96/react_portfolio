@@ -272,8 +272,18 @@ label {
 
 .tech-chip-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-chip-row {
+  display: flex;
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
+}
+
+.tech-chip-row > * {
+  white-space: nowrap;
 }
 
 .tech-chip {

@@ -52,8 +52,8 @@ export default function About() {
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-        <MDBContainer className='mb-4'>
-            <div className='mt-4 tech-chip-container'>
+        <MDBContainer className='mb-4 tech-chip-container'>
+            <div className='mt-4 tech-chip-row'>
               <div className='tech-chip'>
                 <p>HTML</p>
                 <img src='/images/tech-chip-icons/html.webp'/>
