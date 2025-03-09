@@ -74,7 +74,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <h2 className='mt-5 d-flex flex-nowrap justify-content-center align-items-center'>Contact Me</h2>
+      <h2 className='mt-5 d-flex flex-nowrap justify-content-center align-items-center' id="contact-me-title">Contact Me</h2>
 
       <MDBContainer className='mt-4 mb-5 d-flex justify-content-center align-items-center'>
         <MDBCol>
@@ -118,7 +118,7 @@ export default function ContactForm() {
           </MDBRow>
           <MDBBtn className='mt-4 ms-2'
                   color='dark'
-                  style={{border:'2px solid #155209'}}
+                  style={{border:'2px solid #073d5c'}}
                   disabled={!details.name || !details.email || !details.message}
                   onClick={handleSendEmail}
           >
@@ -128,7 +128,7 @@ export default function ContactForm() {
             <div>
               {/* Let user know if email was sent successfully or not*/}
               {status === 200 ? (
-                <p className='emailSendStatus'>Email sent <span style={{color:'lightgreen'}}>successfully</span></p>
+                <p className='emailSendStatus'>Email sent <span style={{color:'#lightblue'}}>successfully</span></p>
               ) : (
                 <p className='emailSendStatus'><span style={{color:'red'}}>Error</span> sending email</p>
               )}

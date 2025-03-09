@@ -1,5 +1,6 @@
 /****************************************************/
 /* CSS Variables */
+
 :root {
   --blue: #145369;
   --light-blue: #97caf5;
@@ -12,11 +13,11 @@
   --light-red: #ed4e4e;
   --dark-red: #661313;
 }
-/****************************************************/
 
 
 /****************************************************/
 /* General */
+
 body {
   background-color: #1E1E1E;
 }
@@ -51,10 +52,11 @@ label {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--dark-blue);
 }
-/****************************************************/
+
 
 /****************************************************/
 /* Navbar */
+
 #navbar {
   position: sticky;
   top: 0;
@@ -89,21 +91,16 @@ label {
 .nav-project-link a:hover {
   color: yellow;
 }
+
+
 /****************************************************/
+/* Featured Artwork */
 
-
-.me-cats-art-with-shadows {
+.me-cats-art {
   display: block;
   float: right;
   width: 18em;
-  margin: 0.5em 1em 0.5em 1em;
-}
-
-.me-cats-art-without-shadows {
-  display: none;
-  float:right;
-  width: 18em;
-  margin: 0.5em 1em 0.5em 1em;
+  margin: 0.5em 1em -1.8em 1em;
 }
 
 
@@ -112,6 +109,7 @@ label {
 #project-title {
   margin-top: 2em;
   margin-bottom: 1em;
+  color: var(--light-blue);
 }
 
 .project-item {
@@ -146,16 +144,11 @@ label {
   width: 20em;
   height: auto;
 }
-/****************************************************/
 
-
-#about-me-img-container {
-  display: flex;
-  justify-content: flex-end;
-}
 
 /****************************************************/
 /* Moveable Super Space Chicken for mobile devices */
+
 .moveable-bird-container {
   display: none;
 }
@@ -181,11 +174,16 @@ label {
   width: 5em;
   height: auto;
 }
-/****************************************************/
 
 
 /****************************************************/
 /* Animated profile image */
+
+#about-me-img-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 #about-me-img {
   width: 15em;
   height: auto;
@@ -196,11 +194,11 @@ label {
   /* ,-44px -51px 33px -55px rgba(254, 228, 26,0.3),4px 0px 25px 10px rgba(73, 225, 210,0.3); */
   cursor: url('/images/ssc_cursor.webp'), auto;
 }
-/****************************************************/
 
 
 /****************************************************/
 /* About Me Section */
+
 .about-me-bullet-list {
   width: 20em;
   justify-content: flex-start;
@@ -209,6 +207,10 @@ label {
 .personal-description {
   width: 80%;
   font-size: 0.85em;
+}
+
+#about-me-title {
+  color: var(--light-blue);
 }
 
 #about-me-text {
@@ -232,6 +234,7 @@ label {
 #u-of-m-link:hover {
   color: #7a0019;
 }
+
 /* CSS Animation for Badge based on time */
 .wobble-animation {
   transition: transform 0.3s;
@@ -291,8 +294,10 @@ label {
   width: 2.5em;
   height: auto;
 }
-/****************************************************/
 
+
+/****************************************************/
+/* Page Banners */
 
 #image-banner {
   width: 100%;
@@ -306,12 +311,22 @@ label {
   background-image: linear-gradient(to bottom, var(--dark-blue), var(--blue), var(--light-blue));
 }
 
+
+/****************************************************/
+/* Contact Me Section */
+
+#contact-me-title {
+  color: var(--light-blue);
+}
+
 .input-box {
   margin-top: 1.5em;
 }
 
+
 /****************************************************/
 /* CSS Media Queries */
+
 @media (max-width: 1000px) {
   .about-me-content {
     padding: 1em 1em 1em 1em;
@@ -320,27 +335,9 @@ label {
   #about-me-img {
     justify-content: flex-end;
   }
-
-  .me-cats-art-without-shadows {
-    width: 40%;
-    height: 40%;
-  }
-
-  
 }
 
 @media (max-width: 768px) {
-  .me-cats-art-without-shadows {
-    width: 40%;
-    height: 40%;
-    display: block;
-  }
-
-  .me-cats-art-with-shadows {
-    width: 40%;
-    height: 40%;
-    display: none;
-  }
 
   #cert-badge {
     right: 4em;
@@ -376,17 +373,6 @@ label {
     justify-content: center;
     padding-right: 0.5em;
   }
-
-  .me-cats-art-without-shadows {
-    width: 55%;
-    height: 55%;
-  }
-}
-
-@media (min-width: 768px) {
-  .me-cats-art-with-shadows {
-    margin-bottom: -2.6em;
-  }
 }
 
 @media (min-width: 1300px) {
@@ -401,7 +387,10 @@ label {
     max-width: 70em;
   }
 }
+
+
 /****************************************************/
+
 .emailSendStatus {
   margin-top: 1.5em;
   font-family: monospace;
