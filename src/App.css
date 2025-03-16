@@ -5,13 +5,35 @@
   --blue: #145369;
   --light-blue: #97caf5;
   --dark-blue: #073d5c;
-  --light-gray: #292929;
+  
   --dark-green: #155209;
   --green: #1a9922;
   --light-green: #10d820;
   --red: #991a1a;
   --light-red: #ed4e4e;
   --dark-red: #661313;
+
+  /* Newer Additions (light "Earth" theme) */
+  /* Colors/style a work in progress */
+
+  --off-white: #eeeeee;
+  --light-gray: #e1e1e1;
+
+  --ground-brown-shallow: #cdaf8d;
+  --ground-brown: #543607;
+  --ground-brown-deeper: #281a04;
+
+  --brown-light: #eaddb7;
+  --brown-yellow: #bfad73;
+
+  --green-light: #2e9516;
+  --green: #146f11;
+  --green-dark: #1a4809;
+
+  /* image banner */
+  --banner-green-faint-light: #a5c189;
+  --banner-brown-light: #cec08d;
+  --banner-brown-faint-light: #d4ccac;
 }
 
 
@@ -19,12 +41,12 @@
 /* General */
 
 body {
-  background-color: #1E1E1E;
+  background-color: var(--light-gray);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lexend Deca', sans-serif;
-  color: white;
+  color: black;
 }
 
 ul, li {
@@ -32,11 +54,11 @@ ul, li {
 }
 
 p {
-  color: #AAAAAA;
+  color: black;
 }
 
 label {
-  color: white;
+  color: black;
 }
 
 ::-webkit-scrollbar {
@@ -44,13 +66,13 @@ label {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--dark-blue);
+  background: var(--ground-brown-shallow);
   border-radius: 6px;
-  border: 1px solid var(--blue)
+  border: 1px solid var(--ground-brown)
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--dark-blue);
+  background: orange;
 }
 
 
@@ -109,15 +131,16 @@ label {
 #project-title {
   margin-top: 2em;
   margin-bottom: 1em;
-  color: var(--light-blue);
+  color: black;
 }
 
 .project-item {
-  background-color: #444444;
+  background-color: var(--off-white);
   width: auto;
   height: auto;
   margin: 1em;
   border-radius: 0.3em;
+  filter: drop-shadow(5px 5px 20px #a3a3a3);
 }
 
 .project-item h4 {
@@ -125,7 +148,7 @@ label {
 }
 
 .project-item h4 a {
-  color: white;
+  color: black;
 }
 
 .project-item h4 a:hover {
@@ -210,29 +233,30 @@ label {
 }
 
 #about-me-title {
-  color: var(--light-blue);
+  color: black;
 }
 
 #about-me-text {
   margin-right: 3em;
 }
 
-#resume-link {
+/* #resume-link {
   font-size: 1.2em;
   font-weight: bold;
   color: white
-}
+} */
 
 #resume-link:hover {
   color: lightblue;
 }
 
 #u-of-m-link {
-  color: #faf0d3;
+  color: var(--dark-red);
+  text-decoration: underline;
 }
 
 #u-of-m-link:hover {
-  color: #7a0019;
+  color: blue;
 }
 
 /* CSS Animation for Badge based on time */
@@ -274,6 +298,11 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--ground-brown);
+  border-top: 0.8em solid var(--dark-green);
+  border-radius: 0.5em;
+  filter: drop-shadow(5px 5px 20px #629dd5);
+  
 }
 
 .tech-chip-row {
@@ -287,16 +316,15 @@ label {
 }
 
 .tech-chip {
-  background-color: #4e4e4e;
+  background-color: var(--ground-brown-shallow);
   border-radius: 0.5em;
-  border: 2px solid var(--dark-blue);
-  margin: 0.2em;
+  border: 0.3em solid var(--ground-brown-deeper);
   font-size: 0.7em;
   text-align: center;
   padding: 0.5em;
   margin: 0.3em;
-  width: 6em;
-  height: 7em;
+  width: 7em;
+  height: 7.5em;
   transition: width 0.3s, height 0.3s;
 }
 
@@ -309,16 +337,16 @@ label {
 /****************************************************/
 /* Page Banners */
 
-#image-banner {
-  width: 100%;
-  height: 8em;
-  background-image: linear-gradient(to top, var(--dark-blue), var(--blue), var(--light-blue));
-}
-
 #image-banner-reversed {
   width: 100%;
   height: 8em;
-  background-image: linear-gradient(to bottom, var(--dark-blue), var(--blue), var(--light-blue));
+  background-image: linear-gradient(to bottom, var(--banner-green-faint-light), var(--banner-brown-light), var(--banner-brown-faint-light));
+}
+
+#image-banner {
+  width: 100%;
+  height: 8em;
+  background-color: #727272;
 }
 
 
@@ -326,9 +354,10 @@ label {
 /* Contact Me Section */
 
 #contact-me-title {
-  color: var(--light-blue);
+  color: black;
 }
 
+/* work in progress -> need to darken -> check CSS framework docs */
 .input-box {
   margin-top: 1.5em;
 }

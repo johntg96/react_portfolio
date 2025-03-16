@@ -18,7 +18,8 @@ export default function About() {
           <MDBCol className='mt-5 about-me-bullet-list'>
             <ul style={{minWidth: '15em', maxWidth: '30em', }}>
               <li><p>Welcome to my web development portfolio website 😃<br/> </p></li>
-              <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'white' }}>ThinkSync</a>)</em>.</p></li>
+              <li><p>Here you will find links to various web projets I've done in the past and more information about myself.</p></li>
+              {/* <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'blue' }}>ThinkSync</a>)</em>.</p></li> */}
             </ul>
           </MDBCol>
         </MDBRow>
