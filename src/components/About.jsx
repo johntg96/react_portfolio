@@ -19,7 +19,7 @@ export default function About() {
             <ul style={{minWidth: '15em', maxWidth: '30em', }}>
               <li><strong>Welcome</strong> to my web development portfolio website 😃</li>
               <br/>
-              <li>On this site you will find links to various web projects I've built, repository links, and a contact form.</li>
+              <li>On this site you will find links to various web projects I've built (or with peers), repository links, and a contact form.</li>
               {/* <li><p>Through my computer endeavors I've participated in several team-focused development projects, one being a full-stack react application <em style={{ fontSize: "80%" }}>(<a href="https://github.com/johntg96/ThinkSync" style={{ color: 'blue' }}>ThinkSync</a>)</em>.</p></li> */}
             </ul>
           </MDBCol>
