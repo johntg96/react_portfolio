@@ -17,7 +17,7 @@
   /* Colors/style a work in progress */
 
   --off-white: #eeeeee;
-  --light-gray: #e1e1e1;
+  --light-gray: #f1f1f1;
 
   --ground-brown-shallow: #cdaf8d;
   --ground-brown: #543607;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul, li {
-  color: #AAAAAA;
+  color: black;
 }
 
 p {
@@ -122,7 +122,7 @@ label {
   display: block;
   float: right;
   width: 18em;
-  margin: 0.5em 1em -1.8em 1em;
+  margin: 0.6em 1em -1.8em 1em;
 }
 
 
@@ -152,7 +152,7 @@ label {
 }
 
 .project-item h4 a:hover {
-  color: lightblue;
+  color: blue;
 }
 
 .project-item p {
@@ -225,6 +225,7 @@ label {
 .about-me-bullet-list {
   width: 20em;
   justify-content: flex-start;
+  margin-top: 6em;
 }
 
 .personal-description {
@@ -337,16 +338,18 @@ label {
 /****************************************************/
 /* Page Banners */
 
-#image-banner-reversed {
+/* #image-banner-reversed {
   width: 100%;
   height: 8em;
   background-image: linear-gradient(to bottom, var(--banner-green-faint-light), var(--banner-brown-light), var(--banner-brown-faint-light));
-}
+} */
 
 #image-banner {
   width: 100%;
   height: 8em;
-  background-color: #727272;
+  background-color: lightgrey;
+  /* border-top: 3em solid var(--blue); */
+  /* border-bottom: 0.4em solid var(--brown-yellow); */
 }
 
 
@@ -362,6 +365,15 @@ label {
   margin-top: 1.5em;
 }
 
+
+/****************************************************/
+/* Footer */
+
+.footer {
+  border-top: 0.4em solid var(--brown-yellow);
+  background-color: var(--ground-brown-deeper);
+  border-bottom: 0.4em solid var(--ground-brown);
+}
 
 /****************************************************/
 /* CSS Media Queries */

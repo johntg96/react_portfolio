@@ -87,7 +87,6 @@ export default function ContactForm() {
               value={details.name}
               onChange={handleDetailsChange}
               required
-              contrast
               className='input-box'
             />
           </MDBRow>
@@ -100,7 +99,6 @@ export default function ContactForm() {
                 value={details.email}
                 onChange={handleDetailsChange}
                 required
-                contrast
                 className='input-box'
               />
           </MDBRow>
@@ -112,13 +110,13 @@ export default function ContactForm() {
               value={details.message}
               onChange={handleDetailsChange}
               required
-              contrast
               className='input-box'
             ></MDBTextArea>
           </MDBRow>
           <MDBBtn className='mt-4 ms-2'
-                  color='dark'
-                  style={{border:'2px solid #073d5c'}}
+                  color='warning'
+                  rounded
+                  style={{color:"black", fontWeight:"bold", outline:"0.1em solid grey"}}
                   disabled={!details.name || !details.email || !details.message}
                   onClick={handleSendEmail}
           >
