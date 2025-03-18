@@ -2,38 +2,41 @@
 /* CSS Variables */
 
 :root {
-  --blue: #145369;
-  --light-blue: #97caf5;
-  --dark-blue: #073d5c;
-  
-  --dark-green: #155209;
-  --green: #1a9922;
-  --light-green: #10d820;
-  --red: #991a1a;
-  --light-red: #ed4e4e;
-  --dark-red: #661313;
-
   /* Newer Additions (light "Earth" theme) */
   /* Colors/style a work in progress */
+  --blue: #145369; /* Currently used for: Navbar */
 
-  --off-white: #eeeeee;
-  --light-gray: #f1f1f1;
+  /* --light-blue: #97caf5; */
+  /* --dark-blue: #073d5c; */
+  
+  /* --dark-green: #155209; */
+  /* --green: #1a9922; */
+  /* --light-green: #10d820; */
+  /* --red: #991a1a; */
+  /* --light-red: #ed4e4e; */
 
-  --ground-brown-shallow: #cdaf8d;
-  --ground-brown: #543607;
-  --ground-brown-deeper: #281a04;
+  --dark-red: #661313; /* Currently used for: #u-of-m-link */
 
-  --brown-light: #eaddb7;
-  --brown-yellow: #bfad73;
+  --off-white: #eeeeee; /* Currently used for .project-item */
+  --light-gray: #f1f1f1; /* Currently used for general background */
 
-  --green-light: #2e9516;
-  --green: #146f11;
-  --green-dark: #1a4809;
+  --ground-brown-shallow: #cdaf8d; /* Currently used for: ::-webkit-scrollbar-thumb, .tech-chip */
+  --ground-brown: #543607; /* Currently used for: variety (numerous elements) */
+  --ground-brown-deeper: #281a04; /* Currently used for .tech-chip, .footer */
 
-  /* image banner */
-  --banner-green-faint-light: #a5c189;
-  --banner-brown-light: #cec08d;
-  --banner-brown-faint-light: #d4ccac;
+  /* --brown-light: #eaddb7; */
+  /* --brown-yellow: #bfad73; */
+
+  /* --green-light: #2e9516; */
+  /* --green: #146f11; */
+  /* --green-dark: #1a4809; */
+  
+  --grass-green: #86ba26; /* Currently used for: .tech-chip-container */
+
+  /* image banner -> Not currently in use */
+  /* --banner-green-faint-light: #a5c189; */
+  /* --banner-brown-light: #cec08d; */
+  /* --banner-brown-faint-light: #d4ccac; */
 }
 
 
@@ -300,9 +303,9 @@ label {
   justify-content: center;
   align-items: center;
   background-color: var(--ground-brown);
-  border-top: 0.8em solid var(--dark-green);
+  border-top: 0.8em solid var(--grass-green);
   border-radius: 0.5em;
-  filter: drop-shadow(5px 5px 20px #629dd5);
+  filter: drop-shadow(0 -0.2em 0.2em var(--grass-green));
   
 }
 
