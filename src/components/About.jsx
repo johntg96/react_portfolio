@@ -56,7 +56,7 @@ export default function About() {
                 I am interested in freelance projects that are in my experience range, especially web development projects for small businessess.
               </p>
 
-              <img src='images/me_cats_plant_art_fresh-shadow.webp' className='me-cats-art'/>
+              <img src='images/me_cats_plant_art_with_tree.png' className='me-cats-art'/>
 
             </div>
             </MDBCol>
