@@ -1,3 +1,5 @@
+// Working implementation, but imo overdone -> Not currently in use.
+
 import emailjs from "@emailjs/browser";
 
 const userId = import.meta.env.VITE_EMAIL_USER_ID;

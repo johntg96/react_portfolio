@@ -1,3 +1,5 @@
+// Working implementation, but imo overdone -> Not currently in use.
+
 import React, { useState } from 'react';
 import {  MDBContainer,
           MDBRow, 
