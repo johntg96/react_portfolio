@@ -325,6 +325,7 @@ label {
   border-radius: 0.5em;
   border: 0.3em solid var(--ground-brown-deeper);
   font-size: 0.7em;
+  font-weight: 600;
   text-align: center;
   padding: 0.5em;
   margin: 0.3em;
@@ -336,6 +337,19 @@ label {
 .tech-chip img {
   width: 2.5em;
   height: auto;
+}
+
+/* Visually groups current tech-chips to skill level*/
+.tech-chip-active {
+  background-color: var(--grass-green);
+}
+
+.tech-chip-need-a-refresher {
+  background-color: var(--ground-brown-deeper);
+}
+
+.tech-chip-need-a-refresher p {
+  color: darkgray;
 }
 
 

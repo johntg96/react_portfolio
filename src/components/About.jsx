@@ -64,58 +64,61 @@ export default function About() {
         </MDBContainer>
         <MDBContainer className='mb-4 tech-chip-container'>
             <div className='mt-4 tech-chip-row'>
-              <div className='tech-chip'>
+              <div className='tech-chip tech-chip-active'>
                 <p>HTML</p>
                 <img src='/images/tech-chip-icons/html.webp'/>
               </div>
-              <div className='tech-chip'>
+              <div className='tech-chip tech-chip-active'>
                 <p>CSS</p>
                 <img src='/images/tech-chip-icons/css.webp'/>
               </div>
-              <div className='tech-chip'>
+              <div className='tech-chip tech-chip-active'>
                 <p>JavaScript</p>
                 <img src='/images/tech-chip-icons/javascript.webp'/>
               </div>
-              <div className='tech-chip'>
+              <div className='tech-chip tech-chip-active'>
                 <p>React</p>
                 <img src='/images/tech-chip-icons/react.webp'/>
               </div>
-              <div className='tech-chip'>
+              <div className='tech-chip tech-chip-active'>
                 <p>Node</p>
                 <img src='/images/tech-chip-icons/node.webp'/>
               </div>
-              <div className='tech-chip'>
-                <p>Express</p>
-                <img src='/images/tech-chip-icons/express.webp'/>
-              </div>
-              <div className='tech-chip'>
-                <p>MongoDB</p>
-                <img src='/images/tech-chip-icons/mongodb.webp'/>
-              </div>
-              <div className='tech-chip'>
-                <p>Mongoose</p>
-                <img src='/images/tech-chip-icons/mongoose.webp'/>
-              </div>
-              <div className='tech-chip'>
-                <p>MySQL</p>
-                <img src='/images/tech-chip-icons/mysql.webp'/>
-              </div>
-              <div className='tech-chip'>
-                <p>Sequelize</p>
-                <img src='/images/tech-chip-icons/sequelize.webp'/>
-              </div>
-              <div className='tech-chip'>
+              <div className='tech-chip tech-chip-active'>
                 <p>Bootstrap</p>
                 <img src='/images/tech-chip-icons/bootstrap.webp'/>
-              </div>
-              <div className='tech-chip'>
-                <p>JQuery</p>
-                <img src='/images/tech-chip-icons/jquery.webp'/>
               </div>
               <div className='tech-chip'>
                 <p>Python</p>
                 <img src='/images/tech-chip-icons/python.webp'/>
               </div>
+              <div className='tech-chip'>
+                <p>JQuery</p>
+                <img src='/images/tech-chip-icons/jquery.webp'/>
+              </div>
+              <div className='tech-chip tech-chip-need-a-refresher'>
+                <p>Express</p>
+                <img src='/images/tech-chip-icons/express.webp'/>
+              </div>
+              <div className='tech-chip tech-chip-need-a-refresher'>
+                <p>MongoDB</p>
+                <img src='/images/tech-chip-icons/mongodb.webp'/>
+              </div>
+              <div className='tech-chip tech-chip-need-a-refresher'>
+                <p>Mongoose</p>
+                <img src='/images/tech-chip-icons/mongoose.webp'/>
+              </div>
+              {/* <div className='tech-chip'>
+                <p>MySQL</p>
+                <img src='/images/tech-chip-icons/mysql.webp'/>
+              </div> */}
+              {/* <div className='tech-chip'>
+                <p>Sequelize</p>
+                <img src='/images/tech-chip-icons/sequelize.webp'/>
+              </div> */}
+
+              
+              
             </div>
          
       </MDBContainer>
