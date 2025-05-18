@@ -56,7 +56,7 @@ export default function About() {
                 I am interested in freelance projects that are in my experience range, especially web development projects for small businesses.
               </p>
 
-              <img src='images/me_cats_plant_art_with_tree.png' className='me-cats-art'/>
+              <img src='images/desk-computer-2.webp' className='me-cats-art'/>
 
             </div>
             </MDBCol>
@@ -68,11 +68,11 @@ export default function About() {
                 <p>HTML</p>
                 <img src='/images/tech-chip-icons/html.webp'/>
               </div>
-              <div className='tech-chip tech-chip-active'>
+              <div className='tech-chip'>
                 <p>CSS</p>
                 <img src='/images/tech-chip-icons/css.webp'/>
               </div>
-              <div className='tech-chip tech-chip-active'>
+              <div className='tech-chip'>
                 <p>JavaScript</p>
                 <img src='/images/tech-chip-icons/javascript.webp'/>
               </div>
@@ -80,7 +80,7 @@ export default function About() {
                 <p>React</p>
                 <img src='/images/tech-chip-icons/react.webp'/>
               </div>
-              <div className='tech-chip tech-chip-active'>
+              <div className='tech-chip'>
                 <p>Node</p>
                 <img src='/images/tech-chip-icons/node.webp'/>
               </div>
@@ -96,15 +96,15 @@ export default function About() {
                 <p>JQuery</p>
                 <img src='/images/tech-chip-icons/jquery.webp'/>
               </div>
-              <div className='tech-chip tech-chip-need-a-refresher'>
+              <div className='tech-chip'>
                 <p>Express</p>
                 <img src='/images/tech-chip-icons/express.webp'/>
               </div>
-              <div className='tech-chip tech-chip-need-a-refresher'>
+              <div className='tech-chip'>
                 <p>MongoDB</p>
                 <img src='/images/tech-chip-icons/mongodb.webp'/>
               </div>
-              <div className='tech-chip tech-chip-need-a-refresher'>
+              <div className='tech-chip'>
                 <p>Mongoose</p>
                 <img src='/images/tech-chip-icons/mongoose.webp'/>
               </div>

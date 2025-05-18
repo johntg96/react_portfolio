@@ -20,6 +20,8 @@
   --off-white: #eeeeee; /* Currently used for .project-item */
   --light-gray: #f1f1f1; /* Currently used for general background */
 
+  --ground-brown-lightest: #F7E0C6;
+
   --ground-brown-shallow: #cdaf8d; /* Currently used for: ::-webkit-scrollbar-thumb, .tech-chip */
   --ground-brown: #543607; /* Currently used for: variety (numerous elements) */
   --ground-brown-deeper: #281a04; /* Currently used for .tech-chip, .footer */
@@ -303,10 +305,11 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--ground-brown);
-  border-top: 0.8em solid var(--grass-green);
+  background-color: var(--ground-brown-shallow);
+  border-top: 0.8em solid var(--ground-brown);
   border-radius: 0.5em;
-  filter: drop-shadow(0 -0.2em 0.2em var(--grass-green));
+  padding-bottom: 0.5em;
+/*  filter: drop-shadow(0 -0.2em 0.2em black);*/
   
 }
 
@@ -321,7 +324,7 @@ label {
 }
 
 .tech-chip {
-  background-color: var(--ground-brown-shallow);
+  background-color: var(--ground-brown);
   border-radius: 0.5em;
   border: 0.3em solid var(--ground-brown-deeper);
   font-size: 0.7em;
@@ -332,6 +335,8 @@ label {
   width: 7em;
   height: 7.5em;
   transition: width 0.3s, height 0.3s;
+  color: var(--ground-brown-shallow);
+
 }
 
 .tech-chip img {
@@ -339,17 +344,8 @@ label {
   height: auto;
 }
 
-/* Visually groups current tech-chips to skill level*/
-.tech-chip-active {
-  background-color: var(--grass-green);
-}
-
-.tech-chip-need-a-refresher {
-  background-color: var(--ground-brown-deeper);
-}
-
-.tech-chip-need-a-refresher p {
-  color: darkgray;
+.tech-chip p {
+  color: var(--ground-brown-lightest);
 }
 
 
