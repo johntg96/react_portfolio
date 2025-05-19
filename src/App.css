@@ -66,20 +66,20 @@ label {
   color: black;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   height: 0.6em;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--ground-brown-shallow);
+  background: var(--blue);
   border-radius: 6px;
-  border: 1px solid var(--ground-brown)
+  border: 2px solid black;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: orange;
 }
-
+*/
 
 /****************************************************/
 /* Navbar */
