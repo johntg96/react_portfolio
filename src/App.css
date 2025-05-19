@@ -2,9 +2,17 @@
 /* CSS Variables */
 
 :root {
-  /* Newer Additions (light "Earth" theme) */
-  /* Colors/style a work in progress */
+  /* Newer Additions ("brown desk theme") */
   --blue: #145369; /* Currently used for: Navbar */
+  --dark-red: #661313; /* Currently used for: #u-of-m-link */
+
+  --off-white: #eeeeee; /* Currently used for .project-item */
+  --light-gray: #f1f1f1; /* Currently used for general background */
+
+  --ground-brown-lightest: #F7E0C6; /* Currently used for .tech-chip p */
+  --ground-brown-shallow: #cdaf8d; /* Currently used for:  .tech-chip-container */
+  --ground-brown: #543607; /* Currently used for: .footer, .tech-chip */
+  --ground-brown-deeper: #281a04; /* Currently used for .tech-chip, .footer */
 
   /* --light-blue: #97caf5; */
   /* --dark-blue: #073d5c; */
@@ -15,17 +23,6 @@
   /* --red: #991a1a; */
   /* --light-red: #ed4e4e; */
 
-  --dark-red: #661313; /* Currently used for: #u-of-m-link */
-
-  --off-white: #eeeeee; /* Currently used for .project-item */
-  --light-gray: #f1f1f1; /* Currently used for general background */
-
-  --ground-brown-lightest: #F7E0C6;
-
-  --ground-brown-shallow: #cdaf8d; /* Currently used for: ::-webkit-scrollbar-thumb, .tech-chip */
-  --ground-brown: #543607; /* Currently used for: variety (numerous elements) */
-  --ground-brown-deeper: #281a04; /* Currently used for .tech-chip, .footer */
-
   /* --brown-light: #eaddb7; */
   /* --brown-yellow: #bfad73; */
 
@@ -33,7 +30,7 @@
   /* --green: #146f11; */
   /* --green-dark: #1a4809; */
   
-  --grass-green: #86ba26; /* Currently used for: .tech-chip-container */
+  /*  --grass-green: #86ba26; */
 
   /* image banner -> Not currently in use */
   /* --banner-green-faint-light: #a5c189; */
@@ -65,6 +62,8 @@ p {
 label {
   color: black;
 }
+
+/* Removed scrollbar appearance modifications for accessibility reasons. */
 
 /*::-webkit-scrollbar {
   height: 0.6em;
