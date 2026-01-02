@@ -54,7 +54,7 @@ export default function About() {
 
               <p className='personal-description'>
                 <br/>
-                I am interested in using my experience (and utilizing smart AI tools) to deveolop something you may like or want. Such as a script to automate something you have to do 
+                I am interested in using my experience (and utilizing smart AI tools) to develop something you may like or want. Such as a script to automate something you have to do 
                 every day, a graphical app or command-line tool for the misceallanous, or mabye a website (or an extra) for your company.
 
               </p>
