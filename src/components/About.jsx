@@ -28,18 +28,21 @@ export default function About() {
             <MDBCol className='mt-4'>
             <div className='d-flex flex-column align-items-center'>
               <p className='mt-3 personal-description'>
-                My name is John and I am a web developer. I completed the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>&nbsp;<span style={{ fontSize: '0.8em', fontStyle: "monospace" }}>(2023)</span>.
+                My name is John and I am interested in software development. I completed the <a id='u-of-m-link' href='https://ccaps.umn.edu/full-stack-web-development-certificate-coding-boot-camp' alt='link to university website'>University of Minnesota Full Stack Web Development Coding Boot Camp</a>&nbsp;<span style={{ fontSize: '0.8em', fontStyle: "monospace" }}>(2023)</span>.
                 <br/>
                 <br/>
-                I am working towards a career in software development.
+
+                I am most interested in developing a game to learn more about web development and game development.
+
+                I am working towards a career by going to trade school.
                 I am planning to complete a college degree as well as various IT certifications.
-                I enjoy coding and work/practice (often) to keep building upon what I've been building on.
+                I enjoy coding and practice to keep building upon what I've been building on.
                 Such as:
               </p>
               <ul className='personal-description'>
-                <li>Typing speed</li>
+                <li>Typing speed + fluency</li>
                 <li>Terminal-centric OS use</li>
-                <li>Hardware + software customization and configuration (farther down the rabbit hole)</li>
+                <li>Configuration management and problem solving</li>
               </ul>
               <div id='cert-badge-mobile' className='mt-2 mb-3'>
                 <div className='wobble-animation'>
@@ -50,10 +53,10 @@ export default function About() {
               </div>
 
               <p className='personal-description'>
-                Recently I have been learning software development containerization.
                 <br/>
-                <br/>
-                I am interested in freelance projects that are in my experience range, especially web development projects for small businesses.
+                I am interested in using my experience (and utilizing smart AI tools) to deveolop something you may like or want. Such as a script to automate something you have to do 
+                every day, a graphical app or command-line tool for the misceallanous, or mabye a website (or an extra) for your company.
+
               </p>
 
               <img src='images/desk-computer-2.webp' className='me-cats-art'/>
